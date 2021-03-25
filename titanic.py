@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import random
 
 #TRAIN AND DEV_________________________________________
-path = r'C:\Users\mharp\python\titanic\train.csv'
+path = '/Users/morganharper/titanic/train.csv'
 train = pd.read_csv(path)
 train_data = np.array(train)
 
