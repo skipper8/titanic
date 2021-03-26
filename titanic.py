@@ -21,19 +21,24 @@ enc = OneHotEncoder(handle_unknown = 'ignore')
 X = enc.fit_transform(X)
 X = X.toarray()
 
+#PREP_______________________________________________________________________
+norm = np.linalg.norm(X)
+X = X/norm
+for n in range(num_col):
+    if np.amax(X[:,n]) != 0:
+        X[:,n] = X[:,n]/np.amax(X[:,n])
+
 #DEV AND TRAIN DATA______________________________________________________
 X_train = X[0:800,:]
-X_train = X_train#/np.max(X_train, axis = 0)
+X_train = X_train #/np.max(X_train, axis = 0)
 Y_train = Y[0:800]
 
 X_dev = X[801:-1,:]
-print(X_dev)
-print(np.max(X_dev, axis = 0))
 X_dev = X_dev#/np.max(X_dev, axis = 0)
 Y_dev = Y[801:-1]
 
 #TEST_______________________________________________________
-path = r'C:\Users\mharp\python\titanic\test.csv'
+path = '/Users/morganharper/titanic/test.csv'
 test_data = pd.read_csv(path)
 test = np.array(test_data)
 
@@ -41,6 +46,13 @@ test = np.array(test_data)
 enc = OneHotEncoder(handle_unknown = 'ignore')
 X = enc.fit_transform(test)
 X_test = X.toarray()
+
+#Prep_______________________________________________________________________
+norm = np.linalg.norm(X_test)
+X = X/norm
+for n in range(num_col):
+    if np.amax(X_test[:,n]) != 0:
+        X_test[:,n] = X_test[:,n]/np.amax(X_test[:,n])
 
 #setup
 def inti(a):
