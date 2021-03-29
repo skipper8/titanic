@@ -9,12 +9,17 @@ import random
 path = '/Users/morganharper/titanic/train.csv'
 train = pd.read_csv(path)
 train_data = np.array(train)
+print(train_data[:,8])
 
 num_rows = np.size(train_data, 0)
 num_col = np.size(train_data,1)
 Y = np.zeros((num_rows,1))
 Y[:,0] = train_data[:,1]
 X = np.delete(train_data, 1, 1)
+X = np.delete(X,7,1)
+X = np.delete(X,2,1)
+X = np.delete(X,0,1)
+print(X)
 
 #ENCODING_________________________________________________________________
 enc = OneHotEncoder(handle_unknown = 'ignore')
@@ -22,8 +27,8 @@ X = enc.fit_transform(X)
 X = X.toarray()
 
 #PREP_______________________________________________________________________
-norm = np.linalg.norm(X)
-X = X/norm
+#norm = np.linalg.norm(X)
+#X = X/norm
 for n in range(num_col):
     if np.amax(X[:,n]) != 0:
         X[:,n] = X[:,n]/np.amax(X[:,n])
@@ -48,8 +53,8 @@ X = enc.fit_transform(test)
 X_test = X.toarray()
 
 #Prep_______________________________________________________________________
-norm = np.linalg.norm(X_test)
-X = X/norm
+#norm = np.linalg.norm(X_test)
+#X_test = X_test/norm
 for n in range(num_col):
     if np.amax(X_test[:,n]) != 0:
         X_test[:,n] = X_test[:,n]/np.amax(X_test[:,n])
@@ -126,7 +131,7 @@ def model_log_reg(X_train,Y_train,X_dev,Y_dev,num_it,lr, w, b):
     return d
     
 w,b = inti(X_train.shape[1])
-d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 1000, .1,w,b)
+d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 10000000, .001,w,b)
 w = d["w"]
 b = d["b"]
 e = model_log_reg(X_dev, Y_dev, X_train, Y_train, 5000, .02, w, b)
