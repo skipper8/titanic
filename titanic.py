@@ -15,9 +15,13 @@ num_rows = np.size(train_data, 0)
 num_col = np.size(train_data,1)
 Y = np.zeros((num_rows,1))
 Y[:,0] = train_data[:,1]
+#answeres
 X = np.delete(train_data, 1, 1)
-X = np.delete(X,7,1)
+#cabins
+#X = np.delete(X,7,1)
+#names
 X = np.delete(X,2,1)
+#id
 X = np.delete(X,0,1)
 print(X)
 
@@ -90,7 +94,10 @@ def log_reg(w,b,X,Y,num_it,lr):
 
     costs = []
     for i in range(num_it):
-        grads, cost = grad_cost_log_reg(w,b,X,Y)
+        temp_X = random.sample(range(X.shape[0]), X.shape[0]-5)
+        temp_Y = Y[temp_X[:],:]
+        temp_X = X[temp_X[:],:]
+        grads, cost = grad_cost_log_reg(w,b,temp_X,temp_Y)
         w = w - lr*grads[0]
         b = b - lr*grads[1]
         costs.append(cost)
@@ -131,7 +138,7 @@ def model_log_reg(X_train,Y_train,X_dev,Y_dev,num_it,lr, w, b):
     return d
     
 w,b = inti(X_train.shape[1])
-d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 10000000, .001,w,b)
+d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 100000, .01,w,b)
 w = d["w"]
 b = d["b"]
-e = model_log_reg(X_dev, Y_dev, X_train, Y_train, 5000, .02, w, b)
+e = model_log_reg(X_dev, Y_dev, X_train, Y_train, 10000, .01, w, b)
