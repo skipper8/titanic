@@ -70,13 +70,13 @@ def inti(a):
     return w,b
 
 #cost function
-def grad_cost_log_reg(w,b,X,Y):
+def grad_cost_log_reg(w,b,X,Y,lambd):
     A=sigmoid(np.dot(X,w)+b)
     cases = int(np.size(X, 0))
     
-    cost = -1/cases * np.sum(np.multiply(Y,np.log(A))+ np.multiply((1-Y),np.log(1-A)))
+    cost = -1/cases * np.sum(np.multiply(Y,np.log(A))+ np.multiply((1-Y),np.log(1-A))) + 1/cases * lambd/2 * np.sum(np.square(w))
 
-    dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T
+    dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T + w*lambd/cases
     db = 1/np.size(X,0)*np.sum(A-Y)
 
     grads = [dw,db]
@@ -97,13 +97,14 @@ def log_reg(w,b,X,Y,num_it,lr):
         temp_X = random.sample(range(X.shape[0]), X.shape[0]-5)
         temp_Y = Y[temp_X[:],:]
         temp_X = X[temp_X[:],:]
-        grads, cost = grad_cost_log_reg(w,b,temp_X,temp_Y)
+        grads, cost = grad_cost_log_reg(w,b,temp_X,temp_Y,.7)
         w = w - lr*grads[0]
         b = b - lr*grads[1]
         costs.append(cost)
         if(i%1000 ==0):
             print(i/1000)
     pram = [w,b]
+    print(np.shape(costs))
     return pram, grads, costs
     
 
