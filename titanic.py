@@ -9,7 +9,7 @@ import random
 path = '/Users/morganharper/titanic/train.csv'
 train = pd.read_csv(path)
 train_data = np.array(train)
-print(train_data[:,8])
+
 
 num_rows = np.size(train_data, 0)
 num_col = np.size(train_data,1)
@@ -17,13 +17,14 @@ Y = np.zeros((num_rows,1))
 Y[:,0] = train_data[:,1]
 #answeres
 X = np.delete(train_data, 1, 1)
-#cabins
-#X = np.delete(X,7,1)
+#cabin
+#X = np.delete(X,9,1)
+#ticket
+X = np.delete(X,7,1)
 #names
 X = np.delete(X,2,1)
 #id
 X = np.delete(X,0,1)
-print(X)
 
 #ENCODING_________________________________________________________________
 enc = OneHotEncoder(handle_unknown = 'ignore')
@@ -139,7 +140,7 @@ def model_log_reg(X_train,Y_train,X_dev,Y_dev,num_it,lr, w, b):
     return d
     
 w,b = inti(X_train.shape[1])
-d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 100000, .01,w,b)
+d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 100000, .1, w, b)
 w = d["w"]
 b = d["b"]
 e = model_log_reg(X_dev, Y_dev, X_train, Y_train, 10000, .01, w, b)
