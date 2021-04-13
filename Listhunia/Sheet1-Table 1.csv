@@ -1,0 +1,1264 @@
+0,1,SCOTT,Captain,Alick John,Male,29,0,0,171908,0,B 8
+0,1,MILLER,Captain,James Blaine,Male,32,0,0,13431,0,A 33
+0,1,STACKHOUSE,Commander,Joseph Foster,Male,41,0,0,46075,0,A 34
+0,1,PEARSON,Dr.,Fred Stark,Male,53,1,0,46094,0,B 51
+0,1,MATURIN,Father,Basil William,Male,68,0,0,46121,0,D 49
+0,1,CROMPTON,Master,Peter Romilly,Male,0.75,5,2,46081,0,D 60
+0,1,WITHERBEE,Master,"Alfred Scott, Jr.",Male,3,0,1,14311,0,D 52
+0,1,HODGES,Master,Dean Winston,Male,5,1,2,14677,0,A 16
+0,1,CROMPTON,Master,John David,Male,6,5,2,46081,0,D 58
+0,1,LUCK,Master,Kenneth Field,Male,8,1,1,10541,0,D 61
+0,1,HODGES,Master,"William Sterling, Jr.",Male,8,1,2,14677,0,A 16
+0,1,LUCK,Master,Elbridge Courtlandt,Male,9,1,1,10541,0,D 61
+0,1,CROMPTON,Master,Paul Romilly,Male,9,5,2,46081,0,D 60
+0,1,CROMPTON,Master,Stephen Hugh,Male,14,5,2,46081,0,D 58
+0,1,STEPHENS,Master,John Harrison Chattan,Male,1.5,0,0,13170,0,D 9
+0,1,PEARL,Miss,Susan Whitewright,Female,1.5,2,2,46071,0,E 59
+0,1,PEARL,Miss,Amy Whitewright Warren,Female,2.5,2,2,46071,0,E 59
+0,1,CROMPTON,Miss,Catherine Mary,Female,10,5,2,46081,0,D 60
+0,1,CROMPTON,Miss,Alberta,Female,12,5,2,46081,0,D 58
+0,1,ALLAN,Miss,Gwendolyn Evelyn,Female,15,1,1,12933,0,B 49 (regal suite and bath)
+0,1,ALLAN,Miss,Anna Marjory,Female,16,1,1,12933,0,B 49 (regal suite and bath)
+0,1,BURNSIDE,Miss,Iris Margaret,Female,20,0,1,13062,0,B 76 and bath
+0,1,LORENSON,Miss,Greta (nurse to the Pearls),Female,23,0,0,46071,0,E 67
+0,1,BRAITHWAITE,Miss,Dorothy Douglas,Female,24,0,0,12934,0,D 63
+0,1,DOUGALL,Miss,Catherine,Female,24,0,0,46065,0,A 15
+0,1,HUTCHINSON,Miss,Phyllis,Female,24,0,0,46087,0,B 91
+0,1,ALLEN,Miss,Dorothy Ditman (nurse to the Cromptons),Female,26,0,0,46081,0,D 60
+0,1,BAKER,Miss,"Amelia ""Millie"" Anne",Female,27,0,0,46059,0,B 38
+0,1,MILNE,Miss,Caroline (nurse to Master Stephens),Female,35,0,0,13170,0,D 9
+0,1,WAITES,Miss,Martha Mattie Pinder (maid to the Burnsides),Female,36,0,0,13063,0,B 80
+0,1,SECCOMBE,Miss,Elizabeth Ann,Female,38,0,0,1296,0,B 35
+0,1,KNIGHT,Miss,Elaine Harwood,Female,42,1,0,14347,0,D 35
+0,1,JONES,Miss,Margaret Druller,Female,44,0,0,46093,0,D 29
+0,1,HICKSON,Miss,Kathryn,Female,57,1,0,46138,0,B 54
+0,1,OBERLIN,Miss,Elise (maid to the Stephenses),Female,36,0,0,13170,0,D 5
+0,1,ROBINSON,Miss,Miss Emily (maid to Miss Pope),Female,36,0,0,46015,0,D 54
+0,1,SECCOMBE,Mr.,Percy W.,Male,20,0,0,1296,0,B 35
+0,1,DUNSMUIR,Mr.,"James A., Jr.",Male,21,0,0,10868,0,D 1
+0,1,DRAKE,Mr.,Bernard Audley Mervyn,Male,23,0,0,46156,0,D 41
+0,1,PERRY,Mr.,Albert Norriss,Male,26,0,0,46152,0,D 28
+0,1,SILVA,Mr.,Thomas James,Male,26,0,0,46159,0,D 21
+0,1,RUMBLE,Mr.,Thomas Walter,Male,27,0,0,10870,0,B 3
+0,1,BRODRICK,Mr.,Carlton Thayer,Male,28,0,0,46135,0,B 106
+0,1,FREEMAN,Mr.,"Richard Rich, Jr.",Male,28,0,0,1300,0,D 4
+0,1,WINTER,Mr.,William Henry,Male,28,0,0,,0,
+0,1,HAMMOND,Mr.,Frederick Sydney,Male,29,1,0,46128,0,B 89
+0,1,NYBLOM,Mr.,Gustaf Adolf,Male,29,0,0,46073,0,D 33
+0,1,MASON,Mr.,Stewart Southam,Male,30,1,0,1295,0,B 77
+0,1,DENYER,Mr.,Ronald (valet to Mr. Vanderbilt),Male,30,0,0,46032,0,B 62
+0,1,POLLARD,Mr.,Henry,Male,30,0,0,13133,0,E 40
+0,1,BATES,Mr.,"Lindon Wallace, Jr.",Male,32,0,0,46165,0,E 69
+0,1,THOMPSON,Mr.,Elbridge Blish,Male,32,0,0,46157,0,B 68 and bath
+0,1,TIBERGHIEN,Mr.,Georges,Male,32,0,0,46108,0,D 24
+0,1,WALKER,Mr.,David (secretary to Dr. Pearson),Male,32,0,0,46095,0,D 46
+0,1,WILLIAMS,Mr.,Thomas Henry,Male,32,0,0,46140,0,B 46
+0,1,HODGES,Mr.,William Sterling,Male,33,1,2,14677,0,A 16
+0,1,BISTIS,Mr.,Leonidas M.,Male,33,0,0,46124,0,E 57
+0,1,HAWKINS,Mr.,Frederick William,Male,33,0,0,16050,0,E 64
+0,1,MILLS,Mr.,Charles Veitch,Male,33,0,0,46039,0,B 63
+0,1,BROWN,Mr.,William Henry Helm,Male,34,0,0,D1349,0,D 34
+0,1,PADILLA,Mr.,Frederico G.,Male,34,0,0,46135,0,A 3
+0,1,ROGERS,Mr.,Frank Albert,Male,34,0,0,10859,0,A 25
+0,1,PEARDON,Mr.,Franklin Arthur,Male,35,0,0,13101,0,B 71
+0,1,STAINTON,Mr.,William (valet to Mr. Frohman),Male,36,0,0,,0,B 61
+0,1,VANDERBILT,Mr.,Alfred Gwynne,Male,37,0,0,46032,0,"B 65, B 67 and bath"
+0,1,WOOD,Mr.,"Arthur ""Al"" John",Male,37,0,0,46110,0,B 17
+0,1,McLEAN,Mr.,Walter,Male,38,0,0,46149,0,D 59
+0,1,TRUMBULL,Mr.,Isaac B.,Male,38,0,0,8568,0,B 1
+0,1,KNIGHT,Mr.,Charles Harwood,Male,39,1,0,14347,0,D 32
+0,1,BLACK,Mr.,James Joseph,Male,39,0,0,46131,0,D 7
+0,1,CROOKS,Mr.,Robert Williams,Male,39,0,0,10865,0,B 107
+0,1,FORMAN,Mr.,Justus Miles,Male,39,0,0,14469,0,D 2
+0,1,STRAUSS,Mr.,Julius,Male,39,0,0,8677,0,E 42
+0,1,PAGE,Mr.,John Harvey,Male,40,0,0,46103,0,A 12
+0,1,WILLIAMSON,Mr.,Charles Francis,Male,40,0,0,46059,0,B 34
+0,1,KESER,Mr.,Harry J.,Male,41,1,0,14678,0,B 11
+0,1,PERKINS,Mr.,Edwin,Male,41,0,0,46119,0,E 44
+0,1,LONEY,Mr.,Allen Donnellan,Male,43,1,1,46061,0,B 85 (parlour suite and bath)
+0,1,DREDGE,Mr.,Joseph Allan,Male,43,1,0,46134,0,B 33
+0,1,PAPPADOPOULO,Mr.,Michael N.,Male,43,1,0,14673,0,B 78
+0,1,CAMPBELL,Mr.,Alexander,Male,43,0,0,46116,0,D 31
+0,1,GORER,Mr.,Edgar Ezekiel,Male,43,0,0,46057,0,B 73
+0,1,MAURICE,Mr.,George Solomon,Male,43,0,0,46105,0,D 51
+0,1,SCHWABACHER,Mr.,Leo M.,Male,43,0,0,14346,0,B 60
+0,1,STONE,Mr.,Herbert Stuart,Male,43,0,0,46069,0,B 10
+0,1,CROMPTON,Mr.,Paul,Male,44,1,6,46081,0,D 56
+0,1,FENWICK,Mr.,John,Male,44,0,0,46144,0,D 11
+0,1,HOPKINS,Mr.,Albert Lloyd,Male,44,0,0,46090,0,B 30
+0,1,MacLENNAN,Mr.,Frederick Ebenezer,Male,44,0,0,46168,0,B 57
+0,1,MYERS,Mr.,Herman Abraham,Male,44,0,0,46089,0,B 56
+0,1,SONNEBORN,Mr.,Henry Becker,Male,44,0,0,14346,0,B 60
+0,1,BRUNO,Mr.,Henry Augustine,Male,45,1,0,46146,0,A 17
+0,1,LETTS,Mr.,Gerald Arthur,Male,45,0,0,46139,0,A 32
+0,1,LEWIN,Mr.,Frederick Guy,Male,45,0,0,46156,0,A 5
+0,1,McMURTRY,Mr.,Frederick Archibald,Male,45,0,0,13061,0,D 59
+0,1,SHIELDS,Mr.,Victor E.,Male,45,0,0,46145,0,D 53
+0,1,VERNON,Mr.,"VERNON, Mr. George Ley Pearce (Butler) (George La Page) ",Male,45,0,0,D1347,0,E 62
+0,1,ADAMS,Mr.,Arthur Henry,Male,46,0,1,46102,0,D 37
+0,1,EMOND,Mr.,Walter Alfred,Male,46,0,0,46148,0,B 7
+0,1,LEAROYD,Mr.,Charles Alfred,Male,47,1,0,46123,0,D 57
+0,1,GRANT,Mr.,Montagu Tassell,Male,47,2,0,,0,D 39
+0,1,GILPIN,Mr.,George Arthur,Male,47,0,0,46136,0,E 49
+0,1,KELLETT,Mr.,Francis Cranston,Male,47,0,0,13191,0,B 93
+0,1,BALDWIN,Mr.,Harry Bradley,Male,48,1,0,46056,0,A 22 and bath
+0,1,DEARBERGH,Mr.,Robert Edward,Male,48,0,0,46018,0,D 18
+0,1,FRIEDENSTEIN,Mr.,Joseph,Male,48,0,0,46038,0,B 108
+0,1,GIBSON,Mr.,Matthew Orr,Male,48,0,0,13432,0,B 2
+0,1,KLEIN,Mr.,Charles,Male,48,0,0,D 1345,0,D 23 and bath
+0,1,MORRISON,Mr.,Kenneth John,Male,48,0,0,46150,0,B 103
+0,1,FOWLES,Mr.,Charles Frederick,Male,49,1,0,46078,0,B 52
+0,1,CHABOT,Mr.,David Louis,Male,49,0,0,13169,0,B 24
+0,1,KING,Mr.,Thomas Boyce,Male,49,0,0,46064,0,B 14
+0,1,TESSON,Mr.,Frank B.,Male,49,0,0,D 1344,0,D 10
+0,1,Van STRAATEN,Mr.,Martin,Male,49,0,0,46060,0,B 40
+0,1,BLOOMFIELD,Mr.,Thomas,Male,50,0,0,46055,0,D 25
+0,1,MEDBURY,Mr.,Maurice Benjamin,Male,50,0,0,13093,0,B 101
+0,1,SCHWARCZ,Mr.,Max M.,Male,51,0,0,46114,0,A 24
+0,1,STEWART,Mr.,Duncan,Male,52,0,0,13166,0,B 97
+0,1,COPPING,Mr.,George Robert,Male,53,1,0,13104,0,E 75
+0,1,BILICKE,Mr.,Albert Clay,Male,54,1,0,19841,0,B 48 (regal suite and bath)
+0,1,ROBINSON,Mr.,Charles E. H.,Male,54,1,0,174681,0,B 6
+0,1,HARPER,Mr.,John Henry,Male,55,0,0,46160,0,D 6
+0,1,JACOBAEUS,Mr.,Sigurd Anton,Male,55,0,0,1686,0,E 60
+0,1,POWELL,Mr.,George A.,Male,55,0,0,13064,0,D 50
+0,1,CAMPBELL-JOHNSTON,Mr.,Conway Seymour Godfrey,Male,56,1,0,46147,0,B 43
+0,1,WITHINGTON,Mr.,Lothrop,Male,56,0,0,1290,0,A 29
+0,1,ADAMS,Mr.,Henry,Male,58,1,0,1298,0,B 27
+0,1,HUBBARD,Mr.,Elbert Green,Male,58,1,0,46096,0,B 70
+0,1,FROHMAN,Mr.,Charles,Male,58,0,0,46052,0,B 75 and bath
+0,1,PLAMONDON,Mr.,Charles Ambrose,Male,59,1,0,20697,0,B 18
+0,1,YOUNG,Mr.,James Mason,Male,60,0,0,866,0,B 53
+0,1,NAUMANN,Mr.,Frank Gustavus,Male,61,0,0,46042,0,A 20
+0,1,DINGWALL,Mr.,Charles Arthur,Male,62,0,0,D 1346,0,D 22
+0,1,PAYNTER,Mr.,Charles Edwin,Male,63,0,1,46133,0,B 99
+0,1,LEIGH,Mr.,Evan Arthur,Male,65,0,0,6347,0,B 109
+0,1,BRODRICK-CLOETE,Mr.,William,Male,63,0,0,46067,0,B 25
+0,1,MITCHELL,Mr.,James Duncan,Male,36,0,0,11956,0,E 53
+0,1,MOODIE,Mr.,Ralph Troupe,Male,36,0,0,46117,0,A 26
+0,1,STUART,Mr.,Alexander,Male,36,0,0,13433,0,E 55
+0,1,WRIGHT,Mr.,Walter,Male,36,0,0,46166,0,B 102
+0,1,MASON,Mrs.,Stewart Southam (Leslie Hawthorne Lindsey),Female,28,1,0,1295,0,B 77
+0,1,HAMMOND,Mrs.,Ogden Haggerty (Mary Picton Stevens),Female,29,1,0,46099,0,D 20 and bath
+0,1,OSBOURNE,Mrs.,T. O. (Ella),Female,31,0,0,13430,0,D 43
+0,1,LUCK,Mrs.,Arthur Courtlandt (Charlotte Field),Female,34,0,2,10541,0,D 61
+0,1,HODGES,Mrs.,William Sterling (Sarah Grisemer),Female,35,1,2,14677,0,A 16
+0,1,SHYMER,Mrs.,Robert D. (Anne C. Justice Patterson),Female,36,0,0,13092,0,B 98
+0,1,LONEY,Mrs.,Allen Donnellan (Catharine Wolfe Brown),Female,37,1,1,46061,0,B 85 (parlour suite and bath)
+0,1,CROMPTON,Mrs.,Paul (Gladys Mary Salis-Schawbe),Female,37,1,6,46081,0,D 56
+0,1,BALDWIN,Mrs.,Harry Bradley (Mary Margaret MacCauley),Female,38,1,0,46056,0,A 22 and bath
+0,1,DREDGE,Mrs.,Joseph Allan (Evelyn),Female,39,1,0,46134,0,B 33
+0,1,CRICHTON,Mrs.,William C. (Mabel Gardner),Female,42,0,0,46088,0,A 19
+0,1,GRANT,Mrs.,Montagu Tassell (Chastina Janet Moore),Female,43,2,0,,0,D 39
+0,1,DEPAGE,Mrs.,Antoine (Marie Picard),Female,43,0,0,46086,0,E 61
+0,1,SHIELDS,Mrs.,Victor E. (Retta Cohen),Female,44,0,0,46145,0,D 53
+0,1,BRUNO,Mrs.,Henry Augustine (Annie Thompson),Female,45,1,0,46146,0,A 17
+0,1,FOWLES,Mrs.,Charles Frederick (Frances May Turner),Female,47,1,0,46078,0,B 52
+0,1,BOUTEILLER,Mrs.,Paul (Elise Schauring) (maid to the Loneys),Female,47,0,0,46061,0,B 81
+0,1,WALLACE-WATSON,Mrs.,William (Florence Stancliffe),Female,49,0,0,13163,0,D 17
+0,1,KESER,Mrs.,Harry J. (Mary Bringhurst Floyd),Female,50,1,0,14678,0,B 11
+0,1,PEARSON,Mrs.,Fred Stark (Mabel Ward),Female,52,1,0,46094,0,B 51
+0,1,WATSON,Mrs.,Anthony (Katherine Elam),Female,52,0,0,14471,0,E 54
+0,1,HUBBARD,Mrs.,Elbert Green (Alice Moore),Female,53,1,0,46096,0,B 70
+0,1,KENNEDY,Mrs.,"Caroline ""Carrie"" (Caroline Hickson)",Female,53,1,0,46138,0,B 54
+0,1,BROWN,Mrs.,"F. C. (Mary ""May"" Cummins)",Female,55,0,1,14311,0,D 52
+0,1,RYERSON,Mrs.,George Sterling (Mary Amelia Crowther),Female,56,0,1,46106,0,D 55
+0,1,YOUNG,Mrs.,James Mason (Georgina Ann Vernon),Female,56,0,0,866,0,B 53
+0,1,CAMPBELL-JOHNSTON,Mrs.,Conway Seymour Godfrey (Ida Amelia McBride),Female,57,1,0,46147,0,B 43
+0,1,WILLEY,Mrs.,Cameron (Catherine E. Dietrich),Female,57,0,0,20604,0,B 36
+0,1,PLAMONDON,Mrs.,Charles Ambrose (Mary Letitia Mackin),Female,58,1,0,20697,0,B 18
+0,1,ROBINSON,Mrs.,Charles E. H. (Prudence Mary Rose),Female,59,1,0,174681,0,B 6
+0,1,MACDONA,Mrs.,Henry D. (Amelia Herbert),Female,59,0,0,13047,0,E 45
+0,1,TESSON,Mrs.,Frank B. (Alice Lowe Atkins),Female,60,0,0,D 1344,0,D 10
+0,1,STEPHENS,Mrs.,George Washington (Frances Ramsey McIntosh),Female,64,0,0,13170,0,D 5
+0,1,COPPING,Mrs.,George Robert (Emma Louisa Black),Female,53,1,0,13104,0,E 75
+0,1,ROGERS,Mrs.,Frank Albert (Agnes Bloor Hill),Female,36,0,0,10859,0,A 25
+0,1,FRIEND,Professor,Edwin William,Male,28,0,0,46083,0,E 47
+0,1,LANE,Sir,Hugh Percy,Male,39,0,0,46101,0,D 26
+1,1,PIERPOINT,Detective-Inspector,William John,Male,51,0,0,46100,0,A 1
+1,1,HOUGHTON,Dr.,James Tilley,Male,29,0,0,46167,0,E 64
+1,1,KENAN,Dr.,Owen Hill,Male,42,0,0,46143,0,B 100
+1,1,FISHER,Dr.,Howard Lowrie,Male,49,0,0,46111,0,E 50
+1,1,MACKWORTH,Lady,Humphrey (Margaret Haig Thomas),Female,32,0,1,46045,0,B 90 (en suite room)
+1,1,ALLAN,Lady,Hugh Montagu (Marguerite Ethel MacKenzie),Female,42,0,2,12933,0,"B 47, B 49 (regal suite and bath)"
+1,1,LASSETTER,Lieutenant,Frederick Macquarie A. (Antill?),Male,22,0,0,46107,0,A 14
+1,1,PEARL,Master,Stuart Duncan Day,Male,5,2,2,46071,0,E 67
+1,1,HOLT,Master,William Robert Grattan,Male,15,0,0,46130,0,B 28
+1,1,PEARL,Miss,Audrey Warren,Female,0.25,2,2,46071,0,E 67
+1,1,LONEY,Miss,Virginia Bruce,Female,15,0,2,46061,0,B 87 (parlour suite and bath)
+1,1,LINES,Miss,Alice Maud (nurse to the Pearls),Female,18,0,0,46071,0,E 59
+1,1,CHARLES,Miss,Doris Maud,Female,21,0,1,13106,0,D 14
+1,1,RYERSON,Miss,Laura Mary,Female,23,0,1,46106,0,D 55
+1,1,BRANDELL,Miss,Josephine Mary,Female,23,0,0,46031,0,D 30
+1,1,CONNER,Miss,Dorothy,Female,25,0,0,46111,0,E 63
+1,1,HURLEY,Miss,Margaret (maid to the Learoyds),Female,25,0,0,13063,0,B 82
+1,1,JOLIVET,Miss,"Marguerite ""Rita"" Lucile",Female,25,0,0,D 1350,0,D 15
+1,1,PAYNTER,Miss,Irene Emily,Female,30,0,1,46133,0,B 105
+1,1,WALKER,Miss,Annie (maid to the Allans),Female,30,0,0,12933,0,B 79
+1,1,POPE,Miss,Theodate (Effie Brooks Pope),Female,48,0,0,46015,0,D 54
+1,1,DAVIS,Miss,Emily (maid to the Allans),Female,36,0,0,12933,0,B 79
+1,1,ADAMS,Mr.,William McMillan,Male,19,0,1,46102,0,D 45
+1,1,BOULTON,Mr.,Denis Duncan Harold Owen,Male,23,0,1,20609,0,A 8
+1,1,RHYS-EVANS,Mr.,Arnold Leslie (secretary to Mr. Thomas),Male,23,0,0,46044,0,B 92
+1,1,PERRY,Mr.,Frederick John,Male,25,0,0,46152,0,D 38
+1,1,BUSWELL,Mr.,Peter,Male,26,0,0,13429,0,B 4
+1,1,SLINGSBY,Mr.,George (valet to Mr. Orr-Lewis),Male,26,0,0,D1348,0,B 62
+1,1,BERNARD,Mr.,"Clinton ""Will"" Percival",Male,27,0,0,46155,0,E 56
+1,1,GRAB,Mr.,Oscar Frederick,Male,28,0,0,46161,0,E 58
+1,1,JENKINS,Mr.,Francis Bertram,Male,29,0,0,46137,0,A 30
+1,1,MOSELY,Mr.,George Gordon,Male,29,0,0,46113,0,E 52
+1,1,PHILLIPS,Mr.,Wallace Banta,Male,29,0,0,46097,0,B 12
+1,1,KEEBLE,Mr.,Wilfrid R.,Male,31,1,0,10864,0,A 7
+1,1,HARRIS,Mr.,Dwight Carlton,Male,31,0,0,46141,0,A 9
+1,1,TAYLOR,Mr.,Richard Lionel,Male,31,0,0,13165,0,B 95
+1,1,RANKIN,Mr.,Robert,Male,33,0,0,46151,0,E 43
+1,1,YUNG,Mr.,Philippe Joseph,Male,33,0,0,46066,0,D 42
+1,1,BERNARD,Mr.,Oliver Percy,Male,34,0,0,1299,0,B 103
+1,1,TURNER,Mr.,Scott,Male,34,0,0,46164,0,B 41
+1,1,COLEBROOK,Mr.,Herbert Gladstone,Male,35,0,0,10866,0,B 111
+1,1,DALY,Mr.,Harold Mayne,Male,35,0,0,8498,0,D 4
+1,1,LEARY,Mr.,James Joseph,Male,35,0,0,46063,0,B 16
+1,1,LEHMANN,Mr.,Isaac,Male,36,0,0,46158,0,D 48
+1,1,LEVINSON,Mr.,"Joseph, Jr.",Male,36,0,0,46163,0,B 42
+1,1,RATCLIFF,Mr.,Norman Albert,Male,36,0,0,46115,0,B 45
+1,1,BURGESS,Mr.,Henry George,Male,37,0,0,13343,0,Cameronia transfer
+1,1,BOHAN,Mr.,James,Male,38,0,0,13102,0,E 65
+1,1,CROSS,Mr.,Ambrose Betham,Male,38,0,0,46126,0,E 46
+1,1,HILL,Mr.,Charles Tilden,Male,38,0,0,9956,0,B 110
+1,1,MATHEWS,Mr.,Arthur Thomas,Male,38,0,0,13168,0,B 94
+1,1,STURDY,Mr.,Charles Frederick,Male,38,0,0,13167,0,B 96
+1,1,JEFFERY,Mr.,Charles Thomas,Male,39,0,0,20608,0,B 44
+1,1,TOOTAL,Mr.,Frederick Edward Owen,Male,39,0,0,46091,0,B 22
+1,1,BATTERSBY,Mr.,James Johnson,Male,40,0,0,46084,0,A 6
+1,1,BYINGTON,Mr.,Albert Jackson,Male,40,0,0,46092,0,B 26
+1,1,LAURIAT,Mr.,"Charles Emelius, Jr.",Male,40,0,0,1297,0,B 5
+1,1,BROOKS,Mr.,"James ""Jay"" Ham",Male,41,0,0,3080,0,E 48
+1,1,POSEN,Mr.,Eugene Henry,Male,41,0,0,D1344,0,D 47
+1,1,SLIDELL,Mr.,M. Thomas,Male,41,0,0,46127,0,E 41
+1,1,BARTLETT,Mr.,George Walter Bowers,Male,42,1,0,46104,0,D 27
+1,1,PARTRIDGE,Mr.,Frank E.,Male,42,0,0,46058,0,A 31
+1,1,BARNES,Mr.,Allen Byron,Male,43,0,0,6926,0,B 1
+1,1,BOWRING,Mr.,Charles Warren,Male,44,0,0,46153,0,B 50
+1,1,SCHWARTE,Mr.,Friedrich Wilhelm August,Male,44,0,0,46122,0,A 11
+1,1,VASSAR,Mr.,William Arthur Fisher,Male,44,0,0,46070,0,B 55
+1,1,AYALA,Mr.,Julian de,Male,45,0,0,46077,0,A 21
+1,1,GAUNTLETT,Mr.,Frederic John,Male,45,0,0,46090,0,B 30
+1,1,TURTON,Mr.,George Henderson,Male,45,0,0,46120,0,B 29
+1,1,HAMMOND,Mr.,Ogden Haggerty,Male,46,1,0,46099,0,D 20 and bath
+1,1,ROGERS,Mr.,Percy William,Male,46,0,0,6928,0,D 44
+1,1,BYRNE,Mr.,Michael G.,Male,47,0,0,46034,0,B 64
+1,1,CHARLES,Mr.,Joseph Henry,Male,48,0,1,10858,0,B 66
+1,1,McMURRAY,Mr.,Leonard Leathes,Male,48,0,0,10860,0,B 69
+1,1,MYERS,Mr.,Joseph Laurence,Male,48,0,0,46154,0,B 59
+1,1,CAIRNS,Mr.,Robert Wishart,Male,49,0,0,,0,
+1,1,HARDWICK,Mr.,Charles Cheever,Male,49,0,0,46125,0,B 104
+1,1,LOCKHART,Mr.,Reginald Raphael,Male,49,0,0,10863,0,B 72
+1,1,ALLES,Mr.,Nicholas Naftel,Male,50,0,0,46029,0,B 31
+1,1,BAKER,Mr.,James,Male,50,0,0,14674,0,B 21
+1,1,HOME,Mr.,Thomas,Male,50,0,0,6927,0,B 23
+1,1,TIMMIS,Mr.,Robert James,Male,51,0,0,46118,0,A 27
+1,1,KESSLER,Mr.,George A.,Male,52,0,0,46162,0,A 23 and bath
+1,1,WRIGHT,Mr.,Robert Currie,Male,54,0,0,70416,0,Cameronia transfer
+1,1,KEMPSON,Mr.,Maitland,Male,55,0,0,10849,0,B 15
+1,1,TOWNLEY,Mr.,Ernest Ethelbert,Male,56,0,0,13003,0,D 40
+1,1,KNOX,Mr.,Samuel McIlhenny,Male,57,0,0,14679,0,B 9
+1,1,PIRIE,Mr.,Robinson,Male,59,0,0,46112,0,B 58
+1,1,THOMAS,Mr.,David Alfred,Male,59,0,0,46043,0,B 86
+1,1,McCONNEL,Mr.,John Wanklyn,Male,60,0,0,46014,0,D 36
+1,1,ORR-LEWIS,Mr. (later Sir),Frederick,Male,49,0,0,D1348,0,B 74
+1,1,PADLEY,Mrs.,Charles (Florence May Fry),Female,23,0,0,46132,0,D 8
+1,1,WITHERBEE,Mrs.,Alfred Scott (Beatrice Wilhemena Theodora LaTouche),Female,24,0,2,14311,0,D 52
+1,1,HAMMOND,Mrs.,Frederick Sydney (Kathleen Saunders McParland),Female,29,1,0,46128,0,B 89
+1,1,BARTLETT,Mrs.,George W. B. (Irma Florine Rothschild),Female,31,1,0,46104,0,D 27
+1,1,LOBB,Mrs.,Reginald Popham (Mary Beatrice Jackman),Female,31,0,0,46072,0,B 39
+1,1,KEEBLE,Mrs.,Wilfrid R. (Fannie Maud Goldsbrough),Female,32,1,0,10864,0,A 7
+1,1,PAPPADOPOULO,Mrs.,Michael N. (Angela),Female,32,1,0,14673,0,B 78
+1,1,THOMPSON,Mrs.,Elbridge Blish (Maude Robinson),Female,32,0,0,46157,0,B 68 and bath
+1,1,PEARL,Mrs.,Frederic Warren (Amy Lea Duncan),Female,34,1,3,46071,0,E 51
+1,1,SMITH,Mrs.,John W. (Jessie Taft),Female,39,0,0,46143,0,B 20
+1,1,LEAROYD,Mrs.,Charles Alfred (Mabel Kate Symonds),Female,41,1,0,46123,0,D 57
+1,1,LASSETTER,Mrs.,Harry Beauchamp (Elisabeth Anne Antill),Female,43,0,0,46107,0,A 4
+1,1,ADAMS,Mrs.,Henry (Annie Elizabeth Macnutt),Female,46,1,0,1298,0,B 27
+1,1,BURNSIDE,Mrs.,Thomas David Meldrum (Josephine Smyth Eaton),Female,49,0,1,13062,0,B 76 and bath
+1,1,OSBORNE,Mrs.,Alexander B. (Alexandra Mary Bryson),Female,49,0,0,865,0,E 74
+1,1,BILICKE,Mrs.,Albert Clay (Gladys Huff),Female,50,1,0,19841,0,B 48 (regal suite and bath)
+1,1,CHAPMAN,Mrs.,William Henry (Ellen Elizabeth Nottingham),Female,59,0,0,6924,0,B 32
+1,1,MORELL,Mrs.,"Moses ""Max"" Samuel (Goldiana ""Georgina"" Ambler)",Female,76,0,0,6924,0,B 32
+1,1,WAKEFIELD,Mrs.,Alfred (Alexander ?) Thomas (Mary Gertrude Smith),Female,36,0,0,,0,
+1,1,CLARKE,Reverend,Charles Cowley,Male,64,0,0,46062,0,D 12
+1,1,PEARL,Surgeon-Major,"Frederic ""Frank"" Warren",Male,46,1,3,46071,0,E 51
+0,1,CLARKE,Mr.,Alfred Russell,Male,55,0,0,13105,0,D 3
+0,2,MATTHEWS,Lieutenant,Robert,Male,34,0,0,,0,
+0,2,BURLEY,Master,Reginald,Male,0,2,2,,0,
+0,2,CHIRGWIN,Master,Richard,Male,0,0,1,,0,
+0,2,SMITH,Master,Hubert,Male,0.5,1,2,,0,
+0,2,PALMER,Master,Albert,Male,0.5,2,2,,0,
+0,2,WEBSTER,Master,Frederick,Male,0.917,2,2,,0,
+0,2,WEBSTER,Master,Henry,Male,0.917,2,2,,0,
+0,2,GROVES,Master,Frederick,Male,1.5,0,2,,0,
+0,2,AITKEN,Master,"James Jarvie, Jr.",Male,2,0,1,,0,
+0,2,ACKROYD,Master,Frederick,Male,3,0,0,,0,
+0,2,PIRIE,Master,Arthur,Male,4,1,1,,0,
+0,2,BOOTH-JONES,Master,Percival,Male,4,1,2,,0,
+0,2,GRAY,Master,Stuart James,Male,4,0,1,,0,
+0,2,PALMER,Master,Edgar,Male,6,2,2,,0,
+0,2,BAXTER,Master,William,Male,6,0,2,,0,
+0,2,DIXON,Master,Stanley,Male,6,0,2,,0,
+0,2,McKECHAN,Master,James,Male,6,0,0,,0,
+0,2,McCORKINDALE,Master,Duncan,Male,7,0,0,,0,
+0,2,OWENS,Master,Reginald (son of Cecelia Owens),Male,8,1,1,,0,
+0,2,OWENS,Master,Ronald (son of Cecelia Owens),Male,10,1,1,,0,
+0,2,TIJOU,Master,Howard Walter,Male,10,0,1,,0,
+0,2,NEVILLE,Master,Charles,Male,11,2,2,,0,
+0,2,GREENWOOD,Master,Ronald Sutcliffe,Male,11,0,0,,0,
+0,2,MATTHEWSON,Master,Joseph,Male,0.667,0,1,,0,
+0,2,MITCHELL,Master,"Walter Dawson, Jr.",Male,0.833,0,2,,0,
+0,2,CRITCHISON,Master,Bernard,Male,1.083,0,2,,0,
+0,2,JONES,Master,William Edward,Male,1.25,0,1,,0,
+0,2,STOKES,Master,William,Male,2.5,0,2,,0,
+0,2,SEMPLE,Master,John,Male,0,0,1,,0,
+0,2,PELLS,Master,John,Male,0,0,2,,0,
+0,2,FISH,Miss,Joan,Female,0.417,2,1,,0,
+0,2,BRETHERTON,Miss,"Elizabeth ""Betty""",Female,1.25,1,1,,0,C 14
+0,2,RICHARDS,Miss,Dora Millicent,Female,1.5,3,2,,0,D 80
+0,2,LAMBIE,Miss,Mary,Female,2,1,1,,0,
+0,2,ADAMS,Miss,Joan M.,Female,2,0,1,,0,
+0,2,KENNEY,Miss,Mary Bridget,Female,2,0,1,,0,
+0,2,ABAS,Miss,Beatrice,Female,2,0,0,,0,
+0,2,GRANDIDGE,Miss,Eva Mary,Female,3,0,1,,0,
+0,2,STROUD,Miss,Helen,Female,3,0,2,,0,
+0,2,NEVILLE,Miss,Muriel,Female,4,2,2,,0,
+0,2,PALMER,Miss,Olive,Female,4,0,0,,0,
+0,2,TIERNEY,Miss,Nina,Female,5,0,1,,0,
+0,2,ABAS,Miss,Isabel,Female,6,0,0,,0,
+0,2,LAMBIE,Miss,Elizabeth,Female,8,1,1,,0,
+0,2,BOOTH-JONES,Miss,Ailsa Georgina,Female,8,1,2,,0,
+0,2,BURLEY,Miss,Doris Florence,Female,9,2,2,,0,
+0,2,BARKER,Miss,Winifred,Female,9,0,1,,0,
+0,2,PIRIE,Miss,Margaret,Female,10,1,1,,0,
+0,2,PARTLETT,Miss,Enid,Female,13,0,0,,0,
+0,2,NEVILLE,Miss,Evelyn,Female,14,2,2,,0,
+0,2,BAILEY,Miss,Ivy,Female,15,0,2,,0,
+0,2,CARSON,Miss,Henrietta,Female,19,0,0,,0,
+0,2,EXLEY,Miss,Ida,Female,19,0,0,,0,
+0,2,HORSBURGH,Miss,Martha,Female,21,0,0,,0,
+0,2,McGOVERN,Miss,"Mary G. ""Mazie""",Female,21,0,0,,0,
+0,2,NICHOL,Miss,Mary F.,Female,22,0,0,,0,
+0,2,WATERS,Miss,Katherine W.,Female,25,1,0,,0,
+0,2,HARE,Miss,Bessie,Female,27,0,0,,0,
+0,2,LEVERICH,Miss,Rosina Philip,Female,28,0,1,,0,
+0,2,WATERS,Miss,Margaret,Female,29,1,0,,0,
+0,2,JONES,Miss, Gwendolyn,Female,29,0,0,,0,
+0,2,ROBSON,Miss,Annie,Female,30,1,0,,0,
+0,2,BUCHANAN,Miss,Mary,Female,30,0,0,,0,
+0,2,THOMPSON,Miss,Muriel,Female,30,0,0,,0,
+0,2,HUSTON,Miss,Nellie,Female,31,0,0,,0,
+0,2,SHAW,Miss,Emily,Female,32,0,0,,0,
+0,2,FENTIMAN,Miss,Nellie,Female,33,0,0,,0,
+0,2,HOPKINS,Miss,Alice Eliza,Female,33,0,0,,0,
+0,2,KELLY,Miss,Margaret S.,Female,34,0,0,,0,
+0,2,PRESS,Miss,Mary Jane,Female,34,0,0,,0,
+0,2,BINGHAM,Miss,Alice Winifred,Female,35,0,0,,0,
+0,2,DONAHUE,Miss,Sarah,Female,35,0,0,,0,
+0,2,HOPKINS,Miss,Kate Mary,Female,35,0,0,,0,
+0,2,CROSBY,Miss,Ellen,Female,36,0,0,,0,
+0,2,HUNT,Miss,Isabella Gertrude,Female,37,0,0,,0,
+0,2,BUTTERS,Miss,Margaret,Female,39,0,0,,0,
+0,2,LAKIN,Miss,Martha Maria,Female,40,0,0,,0,
+0,2,PALMER,Miss,Kathleen,Female,41,2,2,,0,
+0,2,CLAY,Miss,Elizabeth Alice,Female,44,0,0,,0,
+0,2,LAWRENCE,Miss,Ella Woods,Female,50,0,0,,0,
+0,2,VARLEY,Miss,Alice Mercy,Female,50,0,0,,0,
+0,2,MENZIES,Miss,Isabella,Female,57,0,0,,0,
+0,2,HENSHAW,Miss,Mary (Constance?),Female,0.5,0,1,,0,
+0,2,TULLOCH,Miss,Hannah,Female,0.917,0,2,,0,
+0,2,FERRIER,Miss,Sheila,Female,1.083,0,2,,0,
+0,2,LITTLE,Miss,Alice Laura,Female,1.167,0,1,,0,
+0,2,PYE,Miss,Marjorie,Female,1.5,0,1,,0,
+0,2,CHANTRY,Miss,Elizabeth Ellen,Female,0.5,0,2,,0,
+0,2,STEVENSON,Miss,Elizabeth P.,Female,0,0,1,,0,
+0,2,SMITH,Miss,Dorothy,Female,0,0,2,,0,
+0,2,McCORKINDALE,Miss,Mary,Female,0,0,0,,0,
+0,2,LANCASTER,Miss,Annie,Female,36,1,0,,0,
+0,2,LANCASTER,Miss,Dorothy,Female,36,1,0,,0,
+0,2,BAKER,Miss,Eva,Female,36,0,0,,0,
+0,2,BARBER,Miss,Constance,Female,36,0,0,,0,
+0,2,BOYD,Miss,Margaret L.,Female,36,0,0,,0,
+0,2,CALTERBACK,Miss,Alice Margaret (Kaltenbach?),Female,36,0,0,,0,
+0,2,CAMPBELL,Miss,"Christina ""Tina"" Fraser",Female,36,0,0,,0,
+0,2,CHARLES,Miss,Eleanor,Female,36,0,0,,0,
+0,2,CHATT,Miss,Anna,Female,36,0,0,,0,
+0,2,COSTELLO,Miss,Mary,Female,36,0,0,,0,
+0,2,CROSBY,Miss,Annie,Female,36,0,0,,0,
+0,2,ELLIS,Miss,Hilda,Female,36,0,0,,0,
+0,2,HIGGINBOTTOM,Miss,"Mary ""Polly""",Female,36,0,0,,0,Roommates with Pheobe Amory and Martha Whyatt
+0,2,KEELY,Miss,Annie,Female,36,0,0,,0,
+0,2,LOVETT,Miss,Mary,Female,36,0,0,,0,
+0,2,MACLAY,Miss,Bessie,Female,36,0,0,,0,
+0,2,McCLURE,Miss,Margaret,Female,36,0,0,,0,
+0,2,MOLLOY,Miss,Margaret,Female,36,0,0,,0,
+0,2,PIRRIE,Miss,Henrietta,Female,36,0,0,,0,E 135
+0,2,ROONEY,Miss,Mary,Female,36,0,0,,0,
+0,2,RYAN,Miss,Mary,Female,36,0,0,,0,
+0,2,SMITH,Miss,Sarah,Female,36,0,0,,0,
+0,2,WALKER,Miss,Mary Jane,Female,36,0,0,,0,
+0,2,WALLACE,Miss,Delia,Female,36,0,0,,0,
+0,2,WALLACE,Miss,Margaret,Female,36,0,0,,0,
+0,2,WALSH,Miss,Ellen,Female,36,0,0,,0,
+0,2,WILSON,Miss,Sarah,Female,36,0,0,,0,
+0,2,WOODCOCK,Miss,Sarah Emma,Female,36,0,0,,0,
+0,2,WRIGHT,Miss,Mary E.,Female,36,0,0,,0,
+0,2,NEILSON,Mr.,Charles H.,Male,18,1,1,,0,
+0,2,MARTIN-DAVEY,Mr.,Arthur,Male,18,0,2,,0,
+0,2,GRIMSHAW,Mr.,Arthur,Male,18,0,0,,0,
+0,2,MAINMAN,Mr.,Alfred S.,Male,19,4,2,,0,
+0,2,MUSTOE-KINCH,Mr.,William,Male,19,0,1,,0,D 92
+0,2,MAINMAN,Mr.,John V.,Male,21,4,2,,0,
+0,2,ABERCROMBY,Mr.,Ralph Frank,Male,21,0,0,,0,
+0,2,LINTOTT,Mr.,Roy Iver,Male,21,0,0,,0,
+0,2,WARNER,Mr.,Tertius Selwyn,Male,21,0,0,,0,
+0,2,CHANTRY,Mr.,Harold,Male,22,1,1,,0,
+0,2,MITCHELL,Mr.,Walter Dawson,Male,27,1,2,,0,
+0,2,BANCROFT,Mr.,"William Blanchard, Jr.",Male,27,0,0,,0,
+0,2,NICHOLSON,Mr.,Charles Duncan,Male,27,0,0,,0,
+0,2,GROVES,Mr.,Sydney Frederick,Male,28,1,1,,0,
+0,2,WALKER,Mr.,John,Male,28,1,0,,0,
+0,2,FRIEDMAN,Mr.,Samuel,Male,28,0,0,,0,
+0,2,JONES,Mr.,Patrick Llewellynn,Male,28,0,0,,0,
+0,2,TODD,Mr.,David,Male,28,0,0,,0,
+0,2,LUND,Mr.,Charles Henry,Male,29,1,0,,0,
+0,2,ROBSON,Mr.,Kenneth Hamilton Stewart,Male,29,1,0,,0,
+0,2,SHINEMAN,Mr.,James W.,Male,29,1,0,,0,
+0,2,WICKINGS-SMITH,Mr.,Basil Guilford (Cyril's brother),Male,29,1,0,,0,
+0,2,PRICHARD,Mr.,Richard Preston,Male,29,0,0,,0,D 90
+0,2,ELLIOT,Mr.,Arthur W.,Male,30,1,0,,0,
+0,2,FOX,Mr.,Francis Edwin,Male,30,1,0,,0,
+0,2,HOMEWOOD,Mr.,William Thomas,Male,30,0,0,,0,
+0,2,PARSONS,Mr.,Archibald Ernest,Male,30,0,0,,0,
+0,2,AITKEN,Mr.,"James Jarvie, Sr.",Male,31,1,2,,0,
+0,2,CAMPBELL,Mr.,William,Male,31,1,0,,0,
+0,2,MacGREGOR,Mr.,Arthur L.,Male,31,0,1,,0,
+0,2,DALE,Mr.,William,Male,31,0,0,,0,
+0,2,KUEBELLICK,Mr.,Samuel Max,Male,31,0,0,,0,
+0,2,ROLFE,Mr.,George Sommerville,Male,31,0,0,,0,
+0,2,WEIR,Mr.,Cecil Hamilton,Male,31,0,0,,0,
+0,2,BRADDICK,Mr.,Sidral William,Male,32,0,0,,0,
+0,2,SMITH,Mr.,George Arthur,Male,32,0,0,,0,
+0,2,FERRIER,Mr.,Alexander Hubert Buxton,Male,33,1,1,,0,
+0,2,CANDLISH,Mr.,Arthur,Male,33,1,0,,0,
+0,2,SPILLMAN,Mr.,John Bowen,Male,33,1,0,,0,
+0,2,THOMAS,Mr.,Ernest,Male,33,1,0,,0,
+0,2,LADD,Mr.,Owen,Male,33,0,0,,0,
+0,2,MACKAY,Mr.,Hamish,Male,33,0,0,,0,
+0,2,BUSVINE,Mr.,William Robert,Male,34,0,0,,0,
+0,2,SMITH,Mr.,Albert R.,Male,35,1,1,,0,
+0,2,HENN,Mr.,Ernest George,Male,35,1,0,,0,
+0,2,BOOTH,Mr.,John,Male,35,0,0,,0,
+0,2,HUNTER,Mr.,George Hardie,Male,36,1,0,,0,
+0,2,YEATMAN,Mr.,Charles Aylmer Luttrell,Male,36,1,0,,0,
+0,2,SAMOULESCU,Mr.,David (Dave Samuels),Male,36,0,0,,0,
+0,2,SALT,Mr.,Henry Jordan,Male,37,0,0,,0,
+0,2,THOMPSON,Mr.,Albert,Male,37,0,0,,0,
+0,2,THOMPSON,Mr.,Robert Joseph,Male,37,0,0,,0,
+0,2,BOOTH-JONES,Mr.,Edward,Male,38,1,2,,0,
+0,2,HAIGH,Mr.,James Harold,Male,38,0,0,,0,
+0,2,BURLEY,Mr.,Reuben,Male,39,1,2,,0,
+0,2,LONGDIN,Mr.,Arthur,Male,39,1,0,,0,
+0,2,BARCHARD,Mr.,Edmund E.,Male,39,0,0,,0,
+0,2,NORMAN,Mr.,Robert,Male,39,0,0,,0,
+0,2,NEVILLE,Mr.,Albert Charles,Male,40,1,2,,0,
+0,2,NEILSON,Mr.,Henry,Male,41,1,1,,0,
+0,2,CATHERWOOD,Mr.,John,Male,41,1,0,,0,Cameronia transfer
+0,2,ROGERS,Mr.,Richard James,Male,41,0,0,,0,
+0,2,BRILLY,Mr.,Louis,Male,43,0,0,,0,
+0,2,BUTLER,Mr.,Thomas O'Brien,Male,43,0,0,,0,
+0,2,DAVIES,Mr.,George F.,Male,43,0,0,,0,
+0,2,MITCHELHILL,Mr.,William (Mitchell Hill),Male,44,0,0,,0,
+0,2,ELLIS,Mr.,Herbert,Male,45,0,0,,0,
+0,2,CALLAN,Mr.,Patrick,Male,46,0,0,,0,
+0,2,HARRISON,Mr.,James,Male,48,0,0,,0,
+0,2,LANCASTER,Mr.,Francis William,Male,50,0,0,,0,
+0,2,HANSON,Mr.,Samuel,Male,51,1,0,,0,
+0,2,WOLFENDEN,Mr.,John Charles,Male,51,1,0,,0,
+0,2,FOLEY,Mr.,Arthur Richard,Male,51,0,0,,0,
+0,2,GARRY,Mr.,Christopher,Male,51,0,0,,0,
+0,2,BAILEY,Mr.,Walter George (William),Male,53,1,1,,0,
+0,2,MARTIN-DAVEY,Mr.,William (Elizabeth Cumbe Heard),Male,53,1,2,,0,
+0,2,MAINMAN,Mr.,Alfred Reid,Male,55,1,5,,0,
+0,2,STEVENS,Mr.,Charles Henry,Male,57,0,0,,0,
+0,2,MOUNSEY,Mr.,William Edgar,Male,58,0,1,,0,
+0,2,NAISH,Mr.,Theodore,Male,59,1,0,,0,
+0,2,AITKEN,Mr.,James,Male,59,0,2,,0,
+0,2,FULTON,Mr.,John Napier,Male,59,0,0,,0,
+0,2,MACKY,Mr.,Joseph Cochrane,Male,60,1,0,,0,
+0,2,GILSENAN,Mr.,Hugh,Male,60,0,0,,0,
+0,2,MOORE,Mr.,Edwin,Male,62,0,0,,0,
+0,2,VARCOE,Mr.,John Francis (Lavinia Woodgate),Male,70,0,0,,0,
+0,2,HUBBARD,Mr.,Frederick Cole Amos,Male,24,0,0,,0,
+0,2,HOPKINS,Mr.,David Thomas,Male,25,0,0,,0,
+0,2,VANCE,Mr.,John,Male,30,0,0,,0,
+0,2,MARTIN,Mr.,Charles D.,Male,31,0,0,,0,
+0,2,HARRISON,Mr.,Herbert Kesteven,Male,37,0,0,,0,
+0,2,KELLY,Mr.,James Robert,Male,42,0,0,,0,
+0,2,FERGUSON,Mr.,John,Male,49,0,0,,0,
+0,2,COLBERT,Mr.,William F.,Male,51,1,0,,0,
+0,2,HARRIS,Mr.,Reuben,Male,63,1,0,,0,
+0,2,BAXTER,Mr.,William,Male,36,1,1,,0,
+0,2,DIXON,Mr.,Arthur,Male,36,1,1,,0,
+0,2,STOKES,Mr.,"George Edward ""Ted""",Male,36,1,1,,0,
+0,2,TULLOCH,Mr.,James,Male,36,1,1,,0,
+0,2,GARDNER,Mr.,James Andrew,Male,36,1,2,,0,
+0,2,MARTIN-DAVEY,Mr.,William,Male,36,1,2,,0,
+0,2,PALMER,Mr.,Albert,Male,36,1,3,,0,
+0,2,SMITH,Mr.,Alfred F.,Male,36,1,3,,0,
+0,2,BROWNLIE,Mr.,Thomas,Male,36,1,0,,0,
+0,2,CLAYTON,Mr.,William,Male,36,1,0,,0,
+0,2,LAWRENSON,Mr.,Edward,Male,36,1,0,,0,
+0,2,PALMER,Mr.,Frank Arthur,Male,36,1,0,,0,
+0,2,PURSE,Mr.,Reginald,Male,36,1,0,,0,
+0,2,ROBINSON,Mr.,Thomas H.,Male,36,1,0,,0,
+0,2,SULLIVAN,Mr.,George,Male,36,1,0,,0,
+0,2,ARNOTT,Mr.,Robert,Male,36,0,0,,0,
+0,2,ARTHUR,Mr.,George Henry (Herbert?),Male,36,0,0,,0,
+0,2,BARR,Mr.,James (John),Male,36,0,0,,0,
+0,2,BEAUMONT,Mr.,James,Male,36,0,0,,0,
+0,2,BULLEN,Mr.,Henry Garnet,Male,36,0,0,,0,
+0,2,CAMPBELL,Mr.,Kennedy,Male,36,0,0,,0,
+0,2,CATTLEY,Mr.,Colin,Male,36,0,0,,0,
+0,2,De BROISSIERRE,Mr.,Etienne T.,Male,36,0,0,,0,
+0,2,DEWHURST,Mr.,William,Male,36,0,0,,0,
+0,2,GAUTHIER,Mr.,Carlos,Male,36,0,0,,0,
+0,2,GOODMAN,Mr.,Arthur,Male,36,0,0,,0,
+0,2,HENDRICKSON,Mr.,Knud I.,Male,36,0,0,,0,
+0,2,HUMPHREYS,Mr.,Henry St. Giles,Male,36,0,0,,0,
+0,2,JACKSON,Mr.,Percy Thornton,Male,36,0,0,,0,
+0,2,JONES,Mr.,Fred,Male,36,0,0,,0,
+0,2,JONES,Mr.,"Isaac ""Ike"" Talbot",Male,36,0,0,,0,
+0,2,McEVOY,Mr.,Henry,Male,36,0,0,,0,
+0,2,McILROY,Mr.,Archibald,Male,36,0,0,,0,
+0,2,McPARTLIN,Mr.,Myles,Male,36,0,0,,0,
+0,2,MOFFATT,Mr.,William,Male,36,0,0,,0,
+0,2,MOORE,Mr.,Ernest,Male,36,0,0,,0,
+0,2,NEIMARK,Mr.,Abraham,Male,36,0,0,,0,
+0,2,NICHOLL,Mr.,George,Male,36,0,0,,0,
+0,2,POTTER,Mr.,Walter,Male,36,0,0,,0,
+0,2,PROUDFOOT,Mr.,Samuel Lamond,Male,36,0,0,,0,
+0,2,REID,Mr.,Peter,Male,36,0,0,,0,
+0,2,RITCHIE,Mr.,William Joss,Male,36,0,0,,0,
+0,2,ROBERTSON,Mr.,Andrew,Male,36,0,0,,0,
+0,2,ROWELL,Mr.,Thomas Reuben,Male,36,0,0,,0,
+0,2,SEMOURS,Mr.,Charles T.,Male,36,0,0,,0,
+0,2,SLATER,Mr.,Frank William,Male,36,0,0,,0,
+0,2,SMART,Mr.,George Mercer,Male,36,0,0,,0,
+0,2,SMITH,Mr.,David J.,Male,36,0,0,,0,
+0,2,SMITH,Mr.,Harry,Male,36,0,0,,0,
+0,2,STANLEY,Mr.,Henry William,Male,36,0,0,,0,
+0,2,SUTHERST,Mr.,Thomas,Male,36,0,0,,0,
+0,2,THURSTON,Mr.,John,Male,36,0,0,,0,
+0,2,TWIGG,Mr.,Frederick Alexander,Male,36,0,0,,0,
+0,2,TYERS,Mr.,Frederick Charles,Male,36,0,0,,0,
+0,2,VENN,Mr.,Harold Stanley,Male,36,0,0,,0,
+0,2,WARD,Mr.,James Langmuir,Male,36,0,0,,0,
+0,2,WARD,Mr.,Michael,Male,36,0,0,,0,
+0,2,WARING,Mr.,Charles,Male,36,0,0,,0,
+0,2,YARDLEY,Mr.,Lewis Frank,Male,36,0,0,,0,
+0,2,CHANTRY,Mrs.,Harold (Mina),Female,21,1,1,,0,
+0,2,TULLOCH,Mrs.,James (Agnes Kerr),Female,21,1,1,,0,
+0,2,WEBSTER,Mrs.,Frederick G. (Margaret),Female,24,1,3,,0,
+0,2,GRAY,Mrs.,William Hiram (Terence Florence Healey),Female,24,0,1,,0,
+0,2,LITTLE,Mrs.,J. (Margaret),Female,24,0,1,,0,
+0,2,BOOTH-JONES,Mrs.,Edward (Millichamp Jones),Female,25,1,2,,0,
+0,2,WALKER,Mrs.,John (Gertrude Thursfield),Female,26,1,0,,0,
+0,2,GRANDIDGE,Mrs.,Arthur (Nancie B. May),Female,26,0,1,,0,
+0,2,TIERNEY,Mrs.,James (Mary),Female,26,0,1,,0,
+0,2,ABAS,Mrs.,Philip Robert (Beatrice Sanderson),Female,26,0,0,,0,
+0,2,HERBERT,Mrs.,E. V. (Florence),Female,26,0,0,,0,
+0,2,GROVES,Mrs.,Sydney Frederick (Clara Lee),Female,27,1,1,,0,
+0,2,HENN,Mrs.,Ernest George (Edith Mabel Fisher),Female,27,1,0,,0,
+0,2,LAMBIE,Mrs.,Daniel (Mary Docherty),Female,27,0,2,,0,
+0,2,ARMITAGE,Mrs.,Martin? (Florence Gertrude Burke Martin),Female,27,0,0,,0,
+0,2,McKINNON,Mrs.,Robert (Jeanie Gilmour Beith),Female,27,0,0,,0,
+0,2,FOX,Mrs.,Francis Edwin (Emily Gaisford),Female,28,1,0,,0,
+0,2,CONDON,Mrs.,Terrence (Delia Josephine Doyle),Female,28,0,0,,0,
+0,2,STONES,Mrs.,Norman (Hilda Mary Joy),Female,29,1,0,,0,
+0,2,SEMPLE,Mrs.,Andrew (Agnes Gilmour),Female,29,0,1,,0,
+0,2,FINCH,Mrs.,William (Eva Eliza),Female,29,0,0,,0,
+0,2,CHAMBERS,Mrs.,Guy Winstaney P. (Ethel Paul),Female,30,1,0,,0,
+0,2,LONGDIN,Mrs.,Arthur (Matilda Hartley),Female,30,1,0,,0,
+0,2,BOOTH,Mrs.,Charles Harry (Emily Eliza Hadfield) ,Female,30,0,1,,0,
+0,2,ANDERSON,Mrs.,George R. (Margaret Armstrong Scott),Female,30,0,0,,0,
+0,2,PRESCOTT,Mrs.,George (Bertha Martin),Female,30,0,0,,0,Roommate with Bessie Barbour
+0,2,SMITH,Mrs.,Albert R. (Gladys E.),Female,31,1,1,,0,
+0,2,CHIRGWIN,Mrs.,Frederick (Maud Gertrude Cox),Female,31,0,1,,0,
+0,2,KAY,Mrs.,James (Marguerita Belsher),Female,31,0,1,,0,
+0,2,KENNEY,Mrs.,Peter (Margaret),Female,32,0,1,,0,
+0,2,PALMER,Mrs.,Albert (Annie Oakes),Female,33,1,3,,0,
+0,2,YEATMAN,Mrs.,Charles Aylmer Luttrell (Cora Rose Gower),Female,33,1,0,,0,
+0,2,McCORKINDALE,Mrs.,Daniel (Elizabeth Ritchie),Female,33,0,0,,0,
+0,2,PIRIE,Mrs.,Arthur (Annie),Female,35,0,2,,0,
+0,2,PARTLETT,Mrs.,Frank (Amy),Female,35,0,0,,0,
+0,2,BIRD,Mrs.,Lyndon (Rose Holloway),Female,36,0,0,,0,
+0,2,BURLEY,Mrs.,Reuben (Florence Bull),Female,38,1,3,,0,
+0,2,GILL,Mrs.,James (Catherine Harris),Female,38,0,0,,0,
+0,2,MacHARDY,Mrs.,Peter Kenneth (Annie R.),Female,38,0,0,,0,
+0,2,HUNTER,Mrs.,George Hardie (Maggie MacGregor),Female,39,1,0,,0,
+0,2,CATHERWOOD,Mrs.,John (Maria Carson),Female,40,1,0,,0,Cameronia transfer
+0,2,NEILSON,Mrs.,Henry (Frances),Female,40,0,2,,0,
+0,2,BARR,Mrs.,James (Catherine Symington Young),Female,40,0,0,,0,
+0,2,BUTLER,Mrs.,W. (Margaret),Female,40,0,0,,0,
+0,2,DINGLEY,Mrs.,Edward (Katherine S. Glenn),Female,40,0,0,,0,
+0,2,HASTINGS,Mrs.,David (Margaret Anderson Gardiner),Female,40,0,0,,0,
+0,2,TAYLOR,Mrs.,Stanley Robert (Annie Sarah Johnson),Female,41,0,1,,0,
+0,2,MILLAR,Mrs.,Aubrey M. (Margaret Todd),Female,42,0,0,,0,
+0,2,BAILEY,Mrs.,Walter George (Jessie Annie Hanford),Female,45,1,1,,0,
+0,2,KINCH,Mrs.,William (Eunice Mustoe),Female,45,0,1,,0,D 92
+0,2,POOLE,Mrs.,Thomas William (Gertrude Kate Elizabeth Veale),Female,45,0,0,,0,
+0,2,LOYND,Mrs.,David (Alice Grimshaw),Female,49,1,0,,0,
+0,2,WICKHAM,Mrs.,Nina,Female,50,0,0,,0,
+0,2,HORTON,Mrs.,Edwin (Elizabeth),Female,51,0,0,,0,
+0,2,DAVIS,Mrs.,Anna (Anna John),Female,52,0,0,,0,
+0,2,WILLIAMS,Mrs.,Jane (Jane Jenkyn),Female,55,0,0,,0,
+0,2,MACKY,Mrs.,Joseph Cochrane (Mary Birrell),Female,56,1,0,,0,
+0,2,WORDEN,Mrs.,Charles E. (Jane Goodchild),Female,56,0,0,,0,
+0,2,HANSON,Mrs.,Samuel (Mary Harrison),Female,59,1,0,,0,
+0,2,KING,Mrs.,Sidney (Martha Frances),Female,59,0,0,,0,
+0,2,LEVERICH,Mrs.,William Edward (Rosina Thomas Philips),Female,60,0,1,,0,
+0,2,HARRIS,Mrs.,Reuben (Emma),Female,61,1,0,,0,
+0,2,TREVERROW,Mrs.,Caroline (Caroline Richards),Female,62,1,0,,0,
+0,2,BULL,Mrs.,John Henry (Elizabeth Farrar),Female,62,0,1,,0,
+0,2,MacGREGOR,Mrs.,Betsy,Female,63,0,1,,0,
+0,2,MOODY,Mrs.,Martha (Martha Hemphill),Female,70,0,1,,0,
+0,2,HUME,Mrs.,Samuel Elliott (Mary Agnes Elliott),Female,27,0,0,,0,
+0,2,COLBERT,Mrs.,William F. (Helena M. Sherlock),Female,45,1,0,,0,
+0,2,STOKES,Mrs.,George Edward (Mabel Elliott),Female,36,1,1,,0,
+0,2,CRITCHISON,Mrs.,Stanley Lascelles (Lilian Hayes),Female,36,1,2,,0,
+0,2,GARDNER,Mrs.,James Andrew (Annie Gray),Female,36,1,2,,0,
+0,2,SMITH,Mrs.,Alfred F. (Elizabeth A. Jones),Female,36,1,3,,0,
+0,2,MAINMAN,Mrs.,"Alfred Reid (Elizabeth Sarah ""Annie"" Dowsett)",Female,36,1,5,,0,
+0,2,CLAYTON,Mrs.,William (?),Female,36,1,0,,0,
+0,2,LAWRENSON,Mrs.,Edward (Elizabeth),Female,36,1,0,,0,
+0,2,PURSE,Mrs.,Reginald (Gertrude Alice),Female,36,1,0,,0,
+0,2,SHINEMAN,Mrs.,James W. (Margaret McKenzie),Female,36,1,0,,0,
+0,2,SPILLMAN,Mrs.,John Bowen (Eliza),Female,36,1,0,,0,
+0,2,SULLIVAN,Mrs.,George (Emily),Female,36,1,0,,0,
+0,2,THOMAS,Mrs.,Ernest (Mary Hannah (Ann?)),Female,36,1,0,,0,
+0,2,BEATTIE,Mrs.,John A. (Grace S.),Female,36,0,1,,0,
+0,2,JONES,Mrs.,Alfred (Ellen),Female,36,0,1,,0,
+0,2,MATTHEWSON,Mrs.,Maud E. S.,Female,36,0,1,,0,
+0,2,STEVENSON,Mrs.,William (Janet M. Wallace),Female,36,0,1,,0,
+0,2,ACKROYD,Mrs.,Hannah (Hannah Hardaker),Female,36,0,0,,0,
+0,2,BOURKE,Mrs.,Mabel Juliet (Mabel Juliet Kegaad),Female,36,0,0,,0,
+0,2,CHALMERS,Mrs.,Adam (Blanche Gregory),Female,36,0,0,,0,
+0,2,CLARKE,Mrs.,Francis William (Nore),Female,36,0,0,,0,
+0,2,HAMILTON,Mrs.,John (Isabella Murrhead),Female,36,0,0,,0,
+0,2,MacKENZIE,Mrs.,Robert (Mary A.),Female,36,0,0,,0,
+0,2,MATTHEWS,Mrs.,Robert (Annie),Female,36,0,0,,0,
+0,2,SURMAN,Mrs.,Henry George (Mabel Annie Bird),Female,36,0,0,,0,
+0,2,WOOLVEN,Mrs.,Edmond Victor (Helen Saunders),Female,36,0,0,,0,
+0,2,WYLIE,Mrs.,Emma,Female,36,0,0,,0,
+0,2,PHAIR,Reverend,Ernest Edward Maxwell,Male,44,0,0,,0,C 3
+0,2,LOYND,Reverend,David,Male,51,1,0,,0,
+0,2,BEATTIE,Reverend,James Anderson,Male,53,1,0,,0,
+0,2,WISE,Sister,Isabel Eloise,Female,59,0,0,,0,
+1,2,MECREDY,Dr.,"Ralph Jack Richard, Jr.",Male,26,0,0,,0,
+1,2,FOSS,Dr.,Carl Elmer ,Male,27,0,0,,0,
+1,2,VESCOVI,Dr.,Silvio B. de,Male,28,0,0,,0,
+1,2,MOORE,Dr.,Daniel Virgil,Male,36,0,0,,0,
+1,2,BOOTH,Master,Nigel Frederick,Male,0.667,0,1,,0,
+1,2,BURDON,Master,Robert P.,Male,1.167,0,1,,0,
+1,2,BRETHERTON,Master,Paul,Male,3,1,1,,0,C 14
+1,2,WEBSTER,Master,William,Male,3,2,2,,0,
+1,2,RICHARDS,Master,Cecil Harry,Male,4,3,2,,0,D 80
+1,2,RICHARDS,Master,Thomas Percy,Male,7,3,2,,0,D 80
+1,2,MAINMAN,Master,Edwin Richard,Male,7,4,2,,0,
+1,2,KAY,Master,Robert Belsher,Male,7,0,1,,0,
+1,2,HENDERSON,Master,"Harris ""Huntley""",Male,10,0,1,,0,
+1,2,GARDNER,Master,"William Gerard ""Willie""",Male,11,1,2,,0,Roommate with Eric Gardner and Herbert Ehrhardt
+1,2,TAYLOR,Master,Stanley Robert,Male,14,0,1,,0,
+1,2,GARDNER,Master,Eric,Male,16,1,2,,0,Roommate with William Gardner and Herbert Ehrhardt
+1,2,MYERS,Master,William Ellason G.,Male,16,0,0,,0,
+1,2,PEACOCK,Master,"Thomas Edward, Jr.",Male,17,0,1,,0,
+1,2,DOCHERTY,Master,"Thomas William, Jr.",Male,0.167,0,1,,0,
+1,2,STEWART,Master,John Knox,Male,0.417,0,1,,0,
+1,2,COX,Master,Desmond Francis,Male,1.417,0,1,,0,
+1,2,MARICHAL,Master,Maurice,Male,36,2,2,,0,
+1,2,MARICHAL,Miss,Phyllis Renée,Female,2,2,2,,0,
+1,2,ANDERSON,Miss,Barbara Winifred,Female,2,0,1,,0,
+1,2,LEWIS,Miss,Edith,Female,5,0,2,,0,
+1,2,SMITH,Miss,Helen,Female,6,1,2,,0,
+1,2,MARICHAL,Miss,"Yvonne ""Eve""",Female,6,2,2,,0,
+1,2,MAINMAN,Miss,Elizabeth,Female,7,4,2,,0,
+1,2,FISH,Miss,Marion Enid,Female,8,2,1,,0,
+1,2,BRAMMER,Miss,Edith,Female,8,0,1,,0,
+1,2,FISH,Miss,Sadie Eileen,Female,10,2,1,,0,
+1,2,LOHDEN,Miss,Rose Elsie,Female,11,0,1,,0,
+1,2,DOLPHIN,Miss,Avis Gertrude,Female,12,0,0,,0,D deck
+1,2,AITKEN,Miss,"Crissy ""Chrissie"" Nicol Marshall Lizzie Stark",Female,16,1,1,,0,E 114?
+1,2,MAINMAN,Miss,"Mary ""Molly"" Frances",Female,16,4,2,,0,
+1,2,MacFARQUHAR,Miss,Grace Marie,Female,16,0,1,,0,
+1,2,KAYE,Miss,Kathleen (Hannah Ermine Kathleen Kirschbaum),Female,16,0,0,,0,
+1,2,WILD,Miss,Agnes,Female,21,1,0,,0,
+1,2,GALLIGAN,Miss,Margaret,Female,22,0,0,,0,Cameronia transfer
+1,2,MAYCOCK,Miss,Mary,Female,23,0,0,,0,
+1,2,FRENCH,Miss,Grace Hope,Female,24,0,0,,0,Cameronia transfer
+1,2,WILLIAMS,Miss,Beatrice,Female,24,0,0,,0,
+1,2,WILD,Miss,Evelyn Norbury,Female,25,1,0,,0,
+1,2,BARRETT,Miss,May,Female,25,0,0,,0,
+1,2,HARDY,Miss,Elsie,Female,25,0,0,,0,
+1,2,McDONNELL,Miss,"Kate ""Kitty""",Female,25,0,0,,0,
+1,2,MIDDLETON,Miss,Alice,Female,25,0,0,,0,
+1,2,NORTH,Miss,Olive,Female,25,0,0,,0,
+1,2,MARTIN,Miss,Ruby,Female,26,0,0,,0,
+1,2,LEIPOLD,Miss,Catherine Estella M.,Female,27,0,0,,0,
+1,2,PAVEY,Miss,Lorna Mary,Female,28,0,0,,0,
+1,2,NEATBY,Miss,Winifred (Freda),Female,29,0,0,,0,
+1,2,CAMPBELL,Miss,Ada Mena,Female,31,0,0,,0,
+1,2,McCLINTOCK,Miss,Margaret,Female,31,0,0,,0,
+1,2,WINTER,Miss,Thirza,Female,31,0,0,,0,
+1,2,MURDOCH,Miss,Jessie,Female,34,0,0,,0,
+1,2,HAMPSHIRE,Miss,Elizabeth Eleanor,Female,36,1,0,,0,E 135
+1,2,MANBY,Miss,Ada,Female,36,0,0,,0,
+1,2,McLELLAN,Miss,Sarah,Female,36,0,0,,0,
+1,2,WORDSWORTH,Miss,Ruth Mary,Female,37,0,0,,0,
+1,2,MOODY,Miss,Martha (Meta),Female,38,0,1,,0,
+1,2,WHITEHEAD,Miss,Florence,Female,41,1,0,,0,E 135
+1,2,LEE,Miss,Bridget,Female,51,0,0,,0,Cameronia transfer
+1,2,COLEMAN,Miss,Susan,Female,22,0,0,,0,
+1,2,WEBB,Miss,Minnie,Female,34,0,0,,0,
+1,2,WICKINGS-SMITH,Miss,Nancy Eileen Fenn,Female,0,0,2,,0,
+1,2,ROGERS,Miss,Elizabeth (sister of Sarah Fish),Female,36,1,0,,0,
+1,2,BARBOUR,Miss,Bessie,Female,36,0,0,,0,Roommate with Bertha Prescott
+1,2,DODD,Miss,Dorothy,Female,36,0,0,,0,
+1,2,GILHOOLY,Miss,Catherine,Female,36,0,0,,0,
+1,2,BEATTIE,Mr.,Allan Martin,Male,18,0,1,,0,
+1,2,EGANA,Mr.,Vincente,Male,19,0,0,,0,
+1,2,PAYNE,Mr.,Martin Sylvester,Male,19,0,0,,0,
+1,2,AISTON,Mr.,Mr. Joseph,Male,20,0,0,,0,
+1,2,WALLACE,Mr.,Cyril John George,Male,20,0,0,,0,C 28
+1,2,EHRHARDT,Mr.,Herbert W.,Male,21,0,0,,0,Roommate with Eric and William Gardner
+1,2,LUCAS,Mr.,Francis John,Male,22,0,0,,0,
+1,2,SWEET,Mr.,Frank Harold,Male,22,0,0,,0,
+1,2,PELLS,Mr.,Cyril Elmore,Male,24,1,1,,0,
+1,2,MOORE,Mr.,John,Male,24,1,0,,0,
+1,2,JONES,Mr.,"William ""Parry"" Gwynn(e)",Male,24,0,0,,0,
+1,2,McFAYDEN,Mr.,Hugh,Male,24,0,0,,0,
+1,2,JUDSON,Mr.,Frederick Sheldon,Male,25,0,0,,0,
+1,2,WHITCOMBE,Mr.,Hugh Martin Donald Gore,Male,25,0,0,,0,
+1,2,SULLIVAN (O'Sullivan),Mr.,Florence,Male,26,1,0,,0,C deck
+1,2,DONALD,Mr.,Archibald Douglas,Male,26,0,0,,0,Roomate with George Bilbrough and John Wilson
+1,2,LANE,Mr.,George Benjamin,Male,26,0,0,,0,
+1,2,MERIHEINA,Mr.,William Uno,Male,26,0,0,,0,
+1,2,WICKINGS-SMITH,Mr.,Cyril,Male,27,2,1,,0,
+1,2,INCH,Mr.,William Ernest,Male,27,0,0,,0,
+1,2,NEGUS,Mr.,Edward,Male,27,0,0,,0,
+1,2,SCOTT,Mr.,George,Male,27,0,0,,0,
+1,2,SLATTERY,Mr.,Patrick John,Male,27,0,0,,0,
+1,2,TARRY,Mr.,Edward,Male,27,0,0,,0,
+1,2,WORDSWORTH,Mr.,Osmund Bartle,Male,27,0,0,,0,
+1,2,WEBSTER,Mr.,Frederick G.,Male,28,1,3,,0,
+1,2,STONES,Mr.,Norman,Male,28,1,0,,0,
+1,2,HOUNSELL,Mr.,Edgar Cyril,Male,28,0,0,,0,
+1,2,PRESTON-SMITH,Mr.,John,Male,28,0,0,,0,
+1,2,HILL,Mr.,William Spencer,Male,29,0,0,,0,
+1,2,READDIE,Mr.,James Robert,Male,29,0,0,,0,
+1,2,STORCH,Mr.,Walter Reinhold,Male,29,0,0,,0,
+1,2,LINES,Mr.,Stanley Llandolf Burnett,Male,30,1,0,,0,
+1,2,TURPIN,Mr.,Thomas Keith,Male,30,1,0,,0,
+1,2,PAGE,Mr.,Andrew,Male,30,0,0,,0,
+1,2,CRITCHISON,Mr.,Stanley Lascelles,Male,31,1,1,,0,
+1,2,LEWIS,Mr.,"Isaac ""John""",Male,31,1,1,,0,
+1,2,COCKBURN,Mr.,Guy Rosebery,Male,31,0,0,,0,
+1,2,TAFT,Mr.,Sidney,Male,31,0,0,,0,
+1,2,COWPER,Mr.,Ernest Sedgwick,Male,32,0,0,,0,
+1,2,DALRYMPLE,Mr.,David,Male,32,0,0,,0,
+1,2,GRIFFITHS,Mr.,Christopher William,Male,32,0,0,,0,
+1,2,HANES,Mr.,Duncan Arthur Walpole,Male,32,0,0,,0,C 3
+1,2,LANDER,Mr.,Edward Harris,Male,32,0,0,,0,
+1,2,McGINLEY,Mr.,Patrick Vincent,Male,32,0,0,,0,
+1,2,WILLIAMS,Mr.,Thomas J.,Male,32,0,0,,0,
+1,2,BRYCE,Mr.,Hugh B.,Male,33,1,0,,0,
+1,2,ARTER,Mr.,James Sydney,Male,33,0,0,,0,
+1,2,SORENSON,Mr.,Soren,Male,33,0,0,,0,
+1,2,WHALEY,Mr.,Robert William,Male,33,0,0,,0,
+1,2,GRAY,Mr.,Robert Duncan,Male,35,0,0,,0,C 28?
+1,2,O'DONNELL,Mr.,Patrick,Male,35,0,0,,0,
+1,2,CHAMBERS,Mr.,Guy Winstaney P.,Male,36,1,0,,0,
+1,2,ABRAMOWITZ,Mr.,Samuel,Male,36,0,0,,0,
+1,2,BILBROUGH,Mr.,George William,Male,36,0,0,,0,Roommate with Archie Donald and John Wilson
+1,2,EWART,Mr.,Robert James,Male,36,0,0,,0,
+1,2,HALDANE,Mr.,James Cargill,Male,36,0,0,,0,
+1,2,MILFORD,Mr.,Frederick John,Male,36,0,0,,0,
+1,2,CROSSLEY,Mr.,Cyrus,Male,37,1,0,,0,
+1,2,FREEMAN,Mr.,John,Male,37,1,0,,0,
+1,2,STROUD,Mr.,Edwin Percy Wallace,Male,38,1,1,,0,
+1,2,BARRY,Mr.,Edward,Male,38,0,0,,0,
+1,2,COLLIS,Mr.,Edwin Martin,Male,38,0,0,,0,
+1,2,GADSEN,Mr.,Arthur,Male,39,0,0,,0,
+1,2,RICHARDS,Mr.,Thomas Henry,Male,40,1,4,,0,D 80
+1,2,ADAMS,Mr.,Allan H.,Male,42,0,0,,0,
+1,2,FROST,Mr.,Harry Robinson,Male,42,0,0,,0,
+1,2,BROWN,Mr.,Daniel Taylor,Male,43,0,0,,0,
+1,2,GLANCY,Mr.,Joseph,Male,43,0,0,,0,
+1,2,TIJOU,Mr.,Walter Edgar,Male,44,0,1,,0,
+1,2,MITCHELL,Mr.,Arthur Jackson ,Male,45,0,0,,0,E deck
+1,2,DYER,Mr.,Robert,Male,47,0,0,,0,
+1,2,SANDELLS,Mr.,Thomas,Male,50,0,0,,0,
+1,2,BARTLETT,Mr.,Edmund Thomas,Male,56,0,0,,0,
+1,2,HERTZ,Mr.,Douglas Grant,Male,32,0,0,,0,
+1,2,MICHAEL,Mr.,Dewi,Male,38,0,0,,0,
+1,2,GRAY,Mr.,James Paul,Male,59,0,0,,0,
+1,2,MUIR,Mr.,Matthew,Male,62,0,0,,0,
+1,2,ALLEN,Mr.,John,Male,36,0,0,,0,
+1,2,BIRCHALL,Mr.,Henry,Male,36,0,0,,0,
+1,2,DUGUID,Mr.,George Davie,Male,36,0,0,,0,
+1,2,ELLIS,Mr.,John,Male,36,0,0,,0,
+1,2,HOSKINS,Mr.,Arthur,Male,36,0,0,,0,
+1,2,JACKSON,Mr.,Isaac,Male,36,0,0,,0,
+1,2,MANNION,Mr.,Martin,Male,36,0,0,,0,
+1,2,NEEDHAM,Mr.,Henry E.,Male,36,0,0,,0,
+1,2,ROSE,Mr.,Fred J.,Male,36,0,0,,0,
+1,2,SCRIMGEOUR,Mr.,William,Male,36,0,0,,0,
+1,2,SUMNER,Mr.,Thomas,Male,36,0,0,,0,
+1,2,SWEENEY,Mr.,John Martin,Male,36,0,0,,0,
+1,2,WILLIAMS,Mr.,Robert,Male,36,0,0,,0,
+1,2,WILSON,Mr.,John,Male,36,0,0,,0,Roommate of Archie Donald and George Bilbrough
+1,2,FERRIER,Mrs.,Alexander Hubert Buxton (Mary Beata Elizabeth Hayter Stevens),Female,21,1,1,,0,
+1,2,WICKINGS-SMITH,Mrs.,Cyril (Phyllis Bailey Fenn),Female,24,1,1,,0,
+1,2,BURDON,Mrs.,Andrew Thompson (Ellen Mary Rickwood),Female,24,0,1,,0,
+1,2,ELLIOT,Mrs.,Arthur W. (Annie Louise),Female,25,1,0,,0,
+1,2,SULLIVAN (O'Sullivan),Mrs.,Florence (Julia O'Neill),Female,25,1,0,,0,C deck
+1,2,GWYER,Mrs.,Herbert Linford (Margaret Inglis Adams Cairns),Female,26,1,0,,0,
+1,2,ANDERSON,Mrs.,Rowland (Emily Mary Pybus),Female,26,0,1,,0,
+1,2,MITCHELL,Mrs.,"Walter Dawson (Jeanette ""Nettie"" Elizabeth Moore)",Female,27,2,1,,0,
+1,2,COX,Mrs.,Samuel J. (Margaret Elizabeth Robinson),Female,27,0,1,,0,
+1,2,HENSHAW,Mrs.,George (Mabel Iris Baker),Female,27,0,1,,0,
+1,2,PYE,Mrs.,William Samuel (Charlotte Lillian),Female,28,0,1,,0,
+1,2,HOGG,Mrs.,Ellen,Female,28,0,0,,0,
+1,2,LUND,Mrs.,Charles Henry (Sarah Jane Mounsey),Female,29,1,1,,0,
+1,2,DOCHERTY,Mrs.,"William (Mabel ""Millie"" Irving)",Female,29,0,1,,0,
+1,2,CANDLISH,Mrs.,Arthur (Ellen Gardner),Female,30,1,0,,0,
+1,2,FREEMAN,Mrs.,John (Rachel Grant),Female,30,1,0,,0,
+1,2,STEWART,Mrs.,James (Christina Knox?),Female,30,0,1,,0,
+1,2,MURRAY,Mrs.,Christopher (Rose Ellen McGinley),Female,30,0,0,,0,
+1,2,LEWIS,Mrs.,"Isaac ""John"" (Jane Marshall)",Female,31,1,1,,0,
+1,2,STROUD,Mrs.,Edwin Percy Wallace (Constance Eda Simpson),Female,31,1,1,,0,
+1,2,PELLS,Mrs.,Cyril Elmore (Mary Anita Reeve),Female,32,1,1,,0,
+1,2,BRAMMER,Mrs.,Richard H. (Elizabeth Jane Bott),Female,32,0,1,,0,
+1,2,HENDERSON,Mrs.,"Harris ""Huntley"" Russell (Violet Alice Yeatman)",Female,32,0,1,,0,
+1,2,BRETHERTON,Mrs.,Cyril Herbert Emanuel (Norah Annie Keating),Female,32,0,2,,0,C 14
+1,2,McKECHAN,Mrs.,Robert (Elizabeth Ballantyne),Female,32,0,0,,0,
+1,2,MIDDLEMAST,Mrs.,Edward (Isabella L. Woodget),Female,32,0,0,,0,
+1,2,OWENS,Mrs.,Hubert Isaacs (Cecelia Mildred Smith) (sister of Alfred Smith),Female,33,1,2,,0,
+1,2,BRYCE,Mrs.,Hugh B. (Annabelle Anderson),Female,33,1,0,,0,
+1,2,CAMPBELL,Mrs.,William (Amy E. Oliver),Female,33,1,0,,0,
+1,2,HULL,Mrs.,George (Winifred Keeling),Female,33,0,0,,0,
+1,2,CROSSLEY,Mrs.,Cyrus (Sylvia Ellen Milsom),Female,34,1,0,,0,
+1,2,LINES,Mrs.,Stanley Llandolf Burnett (Ethel Moore Lamping),Female,34,1,0,,0,
+1,2,HOLLAND,Mrs.,H. Hedley L. (Nina),Female,34,0,0,,0,
+1,2,NEVILLE,Mrs.,Albert Charles (Mabel Frances),Female,35,1,3,,0,
+1,2,SECCHI,Mrs.,Herbert (Edith Helen West),Female,35,0,0,,0,
+1,2,RICHARDS,Mrs.,"Thomas Henry (Phillippa ""Phyllis"" Conner)",Female,38,1,4,,0,D 80
+1,2,LOHDEN,Mrs.,H. Arnold (Sarah Rose Mary Arnold),Female,38,0,1,,0,
+1,2,McCOLM,Mrs.,James A. (Christina Harrow S. Rae),Female,38,0,0,,0,
+1,2,BAXTER,Mrs.,William (Annie E. Ripley),Female,39,1,1,,0,
+1,2,MARICHAL,Mrs.,Joseph Phillibert René (Yvonne Jessie Emerson),Female,39,1,3,,0,
+1,2,BARKER,Mrs.,Thomas (Martha Ann Bullock),Female,39,0,1,,0,
+1,2,RICHARDSON,Mrs.,James (Annie),Female,39,0,0,,0,E 114
+1,2,BROWNLIE,Mrs.,Thomas (Margaret McKennon),Female,41,1,0,,0,
+1,2,WILSON,Mrs.,"Patrick (Minnie ""Inez"" Corbett)",Female,46,0,0,,0,
+1,2,PEACOCK,Mrs.,Elizabeth L. (Elizabeth L. Todd),Female,48,0,1,,0,
+1,2,NAISH,Mrs.,Theodore (Belle Saunders),Female,49,1,0,,0,
+1,2,WOLFENDEN,Mrs.,John Charles (Dora Roden),Female,49,1,0,,0,
+1,2,WIGGINS,Mrs.,Arthur Vaughn (Sarah Helena Rogerson),Female,49,0,0,,0,
+1,2,MacFARQUHAR,Mrs.,John (Jane Ann Grant),Female,52,0,1,,0,
+1,2,BEATTIE,Mrs.,James Anderson (Margaret White Dall),Female,55,1,0,,0,
+1,2,WHYATT,Mrs.,Aaron Taylor (Martha Ann Bussey),Female,60,0,0,,0,Roommates with Phoebe Amory and Mary Higginbottom
+1,2,AMORY,Mrs.,Alfred Howard (Phoebe Sledge),Female,65,0,0,,0,Roommates with Martha Whyatt and Mary Higginbottom
+1,2,FYFE,Mrs.,James (Jeanie Graham),Female,65,0,0,,0,
+1,2,ADAMS,Mrs.,Albert E. (Gertrude Pollett),Female,25,0,1,,0,
+1,2,HILL,Mrs.,"Richard (Emma ""Emmie"" Jane Haynes)",Female,31,0,0,,0,
+1,2,DIXON,Mrs.,Arthur (Bertha),Female,36,1,1,,0,
+1,2,FISH,Mrs.,"Joseph ""John E."" (Sarah Mary Rogers, sister of Elizabeth Rogers)",Female,36,1,3,,0,
+1,2,ROBINSON,Mrs.,Thomas H. (Edith),Female,36,1,0,,0,
+1,2,TURPIN,Mrs.,Thomas Keith (Maud Adelaide Otway Hatchell),Female,36,1,0,,0,
+1,2,DUNCAN,Mrs.,Robert (Ellen Reid),Female,36,0,0,,0,
+1,2,MARICHAL,Professor,Joseph Phillibert René,Male,38,1,3,,0,
+1,2,HOLBOURN,Professor,"John ""Ian"" Bernard Stoughton",Male,43,0,0,,0,C 10
+1,2,GWYER,Reverend,Herbert Linford,Male,32,1,0,,0,
+1,2,MORRIS,Reverend,Hugh Carlton Syddall,Male,32,0,0,,0,
+1,2,SIMPSON,Reverend,Henry Wood,Male,37,0,0,,0,C 3
+0,2,McKECHAN,Master,Campbell Ballantyne,Male,0.833,0,0,,0,
+0,2,PLANK,Mrs.,David (Harriet Slinger),Female,61,0,0,,0,
+0,3,DOWSLEY,Dr.,David H.,Male,54,0,0,,0,
+0,3,BARTLEY,Master,Gordon,Male,0.25,1,2,,0,
+0,3,WILLIAMS,Master,David,Male,0.25,5,1,,0,
+0,3,COOPER,Master,Joseph E.,Male,0.25,0,1,,0,
+0,3,GOODALL,Master,Jack,Male,0.833,1,2,,0,
+0,3,BLACKSHAW,Master,John J.,Male,1,0,1,,0,
+0,3,BODELL,Master,"Thomas, Jr.",Male,3,0,2,,0,
+0,3,WILSON,Master,Frank,Male,4,1,1,,0,
+0,3,BARTLEY,Master,Arthur,Male,4,1,2,,0,
+0,3,FRANKUM,Master,Frederick George,Male,4,2,2,,0,
+0,3,MURRAY,Master,Walter,Male,4.25,0,1,,0,
+0,3,LAMBERT,Master,William Patrick,Male,5,0,1,,0,
+0,3,WILLIAMS,Master,George Albert,Male,6,5,1,,0,
+0,3,GOODALL,Master,Leonard,Male,7,1,2,,0,
+0,3,DHENIN,Master,"Thomas, Jr.",Male,10,1,2,,0,
+0,3,LOCKWOOD,Master,Clifford,Male,11,1,1,,0,
+0,3,MARSH,Master,"Thomas, Jr.",Male,0.917,0,2,,0,
+0,3,LOGAN,Master,Robert,Male,0.917,0,1,,0,
+0,3,FERGUSON,Master,Edward,Male,1.25,0,1,,0,
+0,3,FRANKUM,Miss,Winifred Annie,Female,0.833,2,2,,0,
+0,3,WILSON,Miss,Dorothy,Female,2,1,1,,0,
+0,3,DHENIN,Miss,Isabella,Female,2,1,2,,0,
+0,3,COUGHLAN,Miss,Margaret,Female,2.5,2,2,,0,
+0,3,WILLIAMS,Miss,Florence,Female,4,5,1,,0,
+0,3,WILLIAMS,Miss,Ethel,Female,5,5,1,,0,
+0,3,LOCKWOOD,Miss,Lily (Lillian),Female,7,1,1,,0,
+0,3,TOPPING,Miss,Hilda,Female,10,0,1,,0,
+0,3,KELLY,Miss,Annie,Female,19,0,0,,0,
+0,3,FERRICK,Miss,Margaret,Female,22,1,0,,0,
+0,3,CURLEY,Miss,Alice,Female,22,0,0,,0,
+0,3,KILKENNEY,Miss,Annie,Female,22,0,0,,0,
+0,3,WAARANEN,Miss,Ellen Marie,Female,22,0,0,,0,
+0,3,GLEASON,Miss,Katherine,Female,23,0,0,,0,
+0,3,MARKS,Miss,Georgina,Female,24,0,1,,0,
+0,3,BOYLE,Miss,Nicholas,Female,24,0,0,,0,
+0,3,DICK,Miss,Annie,Female,24,0,0,,0,
+0,3,DOYLE,Miss,Anna,Female,24,0,0,,0,
+0,3,KING,Miss,Sarah (Mrs. Michael Doherty),Female,24,0,0,,0,
+0,3,McKEON,Miss,Jane,Female,24,0,0,,0,
+0,3,SMITH,Miss,Agnes,Female,24,0,0,,0,
+0,3,LYONS,Miss,Annie,Female,26,0,0,,0,
+0,3,BROWN,Miss,Evelyn,Female,28,1,0,,0,
+0,3,CANIGAN,Miss,Margaret,Female,28,0,0,,0,
+0,3,CUNNIFFE,Miss,Hannah,Female,30,0,0,,0,
+0,3,KELLY,Miss,Marie,Female,32,0,0,,0,
+0,3,DUPLEX,Miss,Kate M.,Female,34,0,0,,0,
+0,3,CATTEW,Miss,Emily,Female,37,0,0,,0,
+0,3,BROWN,Miss,Constance,Female,38,1,0,,0,
+0,3,STENSON,Miss,Delia,Female,40,0,0,,0,
+0,3,BYRNE,Miss,Nellie M.,Female,45,0,0,,0,
+0,3,TOMMS,Miss,Elizabeth,Female,36,0,0,,0,
+0,3,SWALLOW,Mr., Allan,Male,17,0,0,,0,
+0,3,THOMPSON,Mr.,Norman,Male,18,0,2,,0,
+0,3,COXON,Mr.,Geoffrey Thomley,Male,18,0,0,,0,
+0,3,TWINING,Mr.,Edwin,Male,19,0,0,,0,
+0,3,LUCKO,Mr.,Timofej,Male,20,0,0,,0,
+0,3,SHKERDOFF,Mr.,Archie,Male,21,1,0,,0,
+0,3,CHWYSINK,Mr.,Pawel,Male,21,0,0,,0,
+0,3,CROSS,Mr.,Charles Ivor,Male,21,0,0,,0,
+0,3,LONG,Mr.,Harry,Male,21,0,0,,0,
+0,3,PALMER,Mr.,Charles,Male,21,0,0,,0,
+0,3,ANDRIJINE,Mr.,Anisyon,Male,22,0,0,,0,
+0,3,NEILBORSKI,Mr.,Gregory,Male,22,0,0,,0,
+0,3,OLESZKO,Mr.,John,Male,22,0,0,,0,
+0,3,STACEY,Mr.,Joseph Nelson,Male,22,0,0,,0,
+0,3,CLIFT,Mr.,Horance,Male,23,0,0,,0,
+0,3,GOODE,Mr.,George,Male,23,0,0,,0,
+0,3,LICHACZOW,Mr.,Ignatii,Male,23,0,0,,0,
+0,3,LOGNUNIETZ,Mr.,Wasili,Male,23,0,0,,0,
+0,3,McANEMY,Mr.,John,Male,23,0,0,,0,
+0,3,O'CONNOR,Mr.,John,Male,23,0,0,,0,
+0,3,DIECKEY,Mr.,Ewstafey,Male,24,0,0,,0,
+0,3,KING,Mr.,Harry,Male,24,0,0,,0,
+0,3,LINDLEY,Mr.,Harry,Male,24,0,0,,0,
+0,3,MURASKO,Mr.,Boris,Male,24,0,0,,0,
+0,3,KORNEJCZYK,Mr.,Andrej,Male,25,0,0,,0,
+0,3,PRYOR,Mr.,John,Male,25,0,0,,0,
+0,3,SIKIWICKI,Mr.,Andro,Male,25,0,0,,0,
+0,3,TUCKER,Mr.,Albert,Male,25,0,0,,0,
+0,3,FERRICK,Mr.,John,Male,26,1,0,,0,
+0,3,BEVAN,Mr.,Jack,Male,26,0,0,,0,
+0,3,GRAHAM,Mr.,Gordon,Male,26,0,0,,0,
+0,3,INMAN,Mr.,John Edward,Male,26,0,0,,0,
+0,3,KOZLOWSKI,Mr.,Mr. Kost,Male,26,0,0,,0,
+0,3,LIZAWCZUK,Mr.,Alexaj,Male,26,0,0,,0,
+0,3,MICHALKOWICZ,Mr.,Iwan,Male,26,0,0,,0,
+0,3,ROBINSON,Mr.,Allan William,Male,26,0,0,,0,
+0,3,SHIRRAS,Mr.,Robert Brown,Male,26,0,0,,0,
+0,3,STOLARENIC,Mr.,Vasili,Male,26,0,0,,0,
+0,3,AGNEW,Mr.,Thomas W.,Male,27,1,0,,0,
+0,3,HOUSTON,Mr.,Frank,Male,27,0,0,,0,
+0,3,JOHNSON,Mr.,John,Male,27,0,0,,0,
+0,3,McCALLUM,Mr.,Albert Alexander,Male,27,0,0,,0,
+0,3,McNULTY,Mr.,Stephen,Male,27,0,0,,0,
+0,3,NORMAN,Mr.,Jasper,Male,27,0,0,,0,
+0,3,OGINSKI,Mr.,Danil,Male,27,0,0,,0,
+0,3,STRULZ,Mr.,Theodor,Male,27,0,0,,0,
+0,3,WILLIAMS,Mr.,David,Male,27,0,0,,0,
+0,3,BORESKEVECS,Mr.,Folop,Male,28,0,0,,0,
+0,3,EDWARDS,Mr.,Isaac,Male,28,0,0,,0,
+0,3,GRIWACCZEWSKI,Mr.,Michael,Male,28,0,0,,0,
+0,3,KEVORKE,Mr.,Ahajan,Male,28,0,0,,0,
+0,3,McAFEE,Mr.,Thomas,Male,28,0,0,,0,
+0,3,McCREADY,Mr.,Robert G.,Male,28,0,0,,0,
+0,3,O'KELLY,Mr.,John J.,Male,28,0,0,,0,
+0,3,SARGIS,Mr.,Pera,Male,28,0,0,,0,
+0,3,TYLER,Mr.,Samuel,Male,28,0,0,,0,
+0,3,MARSH,Mr.,Thomas,Male,29,1,1,,0,
+0,3,FEELEY,Mr.,Joseph,Male,29,1,0,,0,
+0,3,DIXON,Mr.,Alfred,Male,29,0,0,,0,
+0,3,FLAHERTY,Mr.,Thomas,Male,29,0,0,,0,
+0,3,ISHERWOOD,Mr.,Fred,Male,29,0,0,,0,
+0,3,KOWERETZ,Mr.,Naum D.,Male,29,0,0,,0,
+0,3,OWENS,Mr.,Patrick,Male,29,0,0,,0,
+0,3,GOODALL,Mr.,William,Male,30,1,2,,0,
+0,3,BANNERJI,Mr.,Induprakash,Male,30,0,0,,0,
+0,3,GALVIN,Mr.,Michael,Male,30,0,0,,0,
+0,3,LOCKHART,Mr.,James,Male,30,0,0,,0,
+0,3,MEANEY,Mr.,George Peter,Male,30,0,0,,0,
+0,3,SHEEDY,Mr.,Patrick,Male,30,0,0,,0,
+0,3,SKELTON,Mr.,Frederick,Male,30,0,0,,0,
+0,3,SNOWDEN,Mr.,Fred A.,Male,30,0,0,,0,
+0,3,STACHULA,Mr.,Michael,Male,30,0,0,,0,
+0,3,MASON,Mr.,Joseph Howard,Male,31,0,0,,0,
+0,3,STEVENSON,Mr.,Hugh,Male,31,0,0,,0,
+0,3,BODELL,Mr.,Thomas,Male,32,1,1,,0,
+0,3,KING,Mr.,George,Male,32,0,0,,0,
+0,3,KULICZ,Mr.,Stegan,Male,32,0,0,,0,
+0,3,LOSEVICZ,Mr.,Fadej,Male,32,0,0,,0,
+0,3,SIKORA,Mr.,Joseph,Male,32,0,0,,0,
+0,3,SELF,Mr.,James,Male,33,1,0,,0,
+0,3,BABEICZ,Mr.,Jakim,Male,33,0,0,,0,
+0,3,HURLEY,Mr.,Charles Edwin,Male,33,0,0,,0,
+0,3,KAPERALIA,Mr.,Nikola,Male,33,0,0,,0,
+0,3,DUNN,Mr.,Thomas W.,Male,34,0,0,,0,
+0,3,IVANNIK,Mr.,Peter,Male,34,0,0,,0,
+0,3,PETRENOK,Mr.,Andrej,Male,34,0,0,,0,
+0,3,ESHOO,Mr.,Benjamin,Male,35,0,0,,0,
+0,3,OHANNIA,Mr.,Aziz,Male,35,0,0,,0,
+0,3,SEISIAN,Mr.,Karatioum,Male,35,0,0,,0,
+0,3,GIBBONS,Mr.,Michael,Male,36,0,0,,0,
+0,3,HANCOCK,Mr.,Thomas,Male,36,0,0,,0,
+0,3,HOWARD,Mr.,William,Male,36,0,0,,0,
+0,3,IRETON,Mr.,Edward,Male,36,0,0,,0,
+0,3,JOHANNSEN,Mr.,Sven,Male,36,0,0,,0,
+0,3,HANUS,Mr.,Charles,Male,37,1,0,,0,
+0,3,AMERAIOF,Mr.,Benjamin,Male,37,0,0,,0,
+0,3,FLYNN,Mr.,John,Male,37,0,0,,0,
+0,3,SOLONINA,Mr.,Stefan,Male,37,0,0,,0,
+0,3,ZALIACHANOFF,Mr.,Khaeho,Male,37,0,0,,0,
+0,3,BARTLEY,Mr.,George Noble,Male,38,1,2,,0,
+0,3,BUTLER,Mr.,William M.,Male,38,0,0,,0,
+0,3,CARACITOS,Mr.,George,Male,38,0,0,,0,
+0,3,PODRUBLENY,Mr.,Aleksij,Male,38,0,0,,0,
+0,3,TADUS,Mr.,Asset,Male,38,0,0,,0,
+0,3,WILLIAMS,Mr.,James,Male,38,0,0,,0,
+0,3,ANDREATOS,Mr.,Marinos,Male,39,0,0,,0,
+0,3,BABA,Mr.,George,Male,39,0,0,,0,
+0,3,BABICZUK,Mr.,Siemion,Male,39,0,0,,0,
+0,3,BENNETT,Mr.,William,Male,39,0,0,,0,
+0,3,LUKIANOWICZ,Mr.,Wawren,Male,39,0,0,,0,
+0,3,WEBB,Mr.,William,Male,40,1,1,,0,
+0,3,COUGHLAN,Mr.,John J.,Male,40,1,3,,0,
+0,3,PHILLIPS,Mr.,William,Male,40,0,0,,0,
+0,3,STANDFAST,Mr.,Noel,Male,40,0,0,,0,
+0,3,YOHAMA,Mr.,Envia,Male,40,0,0,,0,
+0,3,CHARKOWSKI,Mr.,Porflri,Male,41,0,0,,0,
+0,3,HARKENS,Mr.,Alexander,Male,41,0,0,,0,
+0,3,WARD,Mr.,Joseph,Male,41,0,0,,0,
+0,3,BLACKBURN,Mr.,George A.,Male,42,0,0,,0,
+0,3,BISHOP,Mr.,William,Male,44,0,0,,0,
+0,3,LEYLAND,Mr.,William,Male,44,0,0,,0,
+0,3,APRIN,Mr.,Joseph,Male,45,0,0,,0,
+0,3,BABA,Mr.,Abraham,Male,45,0,0,,0,
+0,3,DRISCOLL,Mr.,Timothy J.,Male,45,0,0,,0,
+0,3,ORYDYNIEC,Mr.,Andrzej,Male,45,0,0,,0,
+0,3,WILLIAMS,Mr.,Thomas,Male,45,0,0,,0,
+0,3,WORRELL,Mr.,Fred A.,Male,45,0,0,,0,
+0,3,OLIVAR,Mr.,Diego,Male,46,0,0,,0,
+0,3,STANKIEWICZ,Mr.,Anthony,Male,46,0,0,,0,
+0,3,CRURCHLEY,Mr.,William Henry,Male,47,0,0,,0,
+0,3,BURKE,Mr.,Ernest James,Male,48,0,0,,0,
+0,3,SIDWELL,Mr.,George,Male,48,0,0,,0,
+0,3,BISHOP,Mr.,Joseph,Male,50,1,0,,0,
+0,3,KASIARAN,Mr.,Mirja,Male,50,0,0,,0,
+0,3,MARCHEWKA,Mr.,Josef,Male,50,0,0,,0,
+0,3,REID,Mr.,John H.,Male,50,0,0,,0,
+0,3,HARVEY,Mr.,William,Male,53,0,0,,0,
+0,3,CARLSON,Mr.,C. J.,Male,57,0,0,,0,
+0,3,KOCZURKO,Mr.,Wilkenti,Male,59,0,0,,0,
+0,3,JONES,Mr.,Evan,Male,65,0,0,,0,
+0,3,GROVES,Mr.,George,Male,70,0,0,,0,
+0,3,JOHNSON,Mr.,Albert E.,Male,72,0,0,,0,
+0,3,JENKINS,Mr.,Alfred,Male,73,0,0,,0,
+0,3,CONNOLLY,Mr.,Michael,Male,39,0,0,,0,
+0,3,GREENSHIELDS,Mr.,A. J.,Male,36,0,0,,0,
+0,3,MOLLOY,Mr.,Robert J.,Male,36,0,0,,0,
+0,3,NIKANDER,Mr.,Gunnar,Male,36,0,0,,0,
+0,3,TAYLOR,Mr.,Arthur,Male,36,0,0,,0,
+0,3,YORK,Mr.,William,Male,36,0,0,,0,
+0,3,BARROW,Mrs.,Donald George M. (May),Female,20,1,0,,0,
+0,3,WARDLE,Mrs.,Frank (Cissie),Female,22,0,0,,0,
+0,3,FERGUSON,Mrs.,Samuel James (Mary Agnes),Female,23,0,1,,0,
+0,3,LAMBERT,Mrs.,John (Delia Gately),Female,25,0,1,,0,
+0,3,MURRAY,Mrs.,James (Margaret Gray),Female,26,0,1,,0,
+0,3,REID,Mrs.,Ellen,Female,26,0,0,,0,
+0,3,ROBSHAW,Mrs.,George (Edith),Female,26,0,0,,0,
+0,3,AGNEW,Mrs.,Thomas W. (?),Female,27,1,0,,0,
+0,3,HEBDEN,Mrs.,Robert (Clara),Female,27,1,0,,0,
+0,3,YOUNG,Mrs.,Charles (Elizabeth Grossart),Female,27,0,0,,0,
+0,3,BARTLEY,Mrs.,George Noble (Ellen),Female,28,1,2,,0,
+0,3,SMITH,Mrs.,William (Minnie),Female,28,0,0,,0,
+0,3,BLACKSHAW,Mrs.,Alice,Female,29,0,1,,0,
+0,3,SCOTT,Mrs.,Arthur (Alice Ann Kay),Female,29,0,1,,0,
+0,3,SELF,Mrs.,James (Florence Carl),Female,30,1,0,,0,
+0,3,TRAVERS,Mrs.,Jane,Female,30,0,0,,0,
+0,3,WEBB,Mrs.,William (Sarah),Female,32,1,0,,0,
+0,3,DHENIN,Mrs.,Thomas (Evelyn Thomson),Female,33,1,2,,0,
+0,3,GOODALL,Mrs.,William (Beatrice),Female,33,1,2,,0,
+0,3,COOPER,Mrs.,Nellie Elizabeth,Female,33,0,1,,0,
+0,3,FEELEY,Mrs.,Teresa (Teresa Clery),Female,34,1,0,,0,
+0,3,LOCKWOOD,Mrs.,Dick (Florence Robshaw),Female,35,0,2,,0,
+0,3,BODELL,Mrs.,Thomas (Florence Saunders),Female,36,1,1,,0,
+0,3,FRANKUM,Mrs.,Joseph (Annie Mariah B.),Female,36,1,3,,0,
+0,3,HANUS,Mrs.,Charles (Mary),Female,37,1,0,,0,
+0,3,WILLIAMS,Mrs.,Harry John (Elizabeth Annie Millman),Female,37,0,6,,0,
+0,3,THOMPSON,Mrs.,Joseph (Sarah Ann),Female,40,1,1,,0,
+0,3,TOPPING,Mrs.,Albert (Margaret Shenty),Female,40,0,1,,0,
+0,3,BISHOP,Mrs.,Joseph (Alice),Female,49,1,0,,0,
+0,3,MARKS,Mrs.,G. (Elizabeth Brock),Female,50,0,1,,0,
+0,3,ANDERSDOTTER,Mrs.,Carolina B.,Female,54,0,0,,0,
+0,3,JACOBS,Mrs.,Abraham (Liba Bella Chirug),Female,67,0,0,,0,
+0,3,WEBB,Mrs.,Elizabeth,Female,69,0,0,,0,
+0,3,WILSON,Mrs.,William (Emily),Female,36,0,2,,0,
+0,3,MURRAY,Mrs.,Mary,Female,36,0,0,,0,
+0,3,WATSON,Mrs.,Kate,Female,36,0,0,,0,
+1,3,COUGHLAN,Master,Jeremiah Bernard,Male,0.917,2,2,,0,
+1,3,ANTILA,Master,Jan,Male,3,1,1,,0,
+1,3,COUGHLAN,Master,"John, Jr.",Male,3,2,2,,0,
+1,3,ANTILA,Master,Carl,Male,4,1,1,,0,
+1,3,FRANKUM,Master,Francis,Male,7,2,2,,0,
+1,3,SCOTT,Master,"Arthur, Jr.",Male,8,0,1,,0,
+1,3,WILLIAMS,Master,John Edward,Male,10,5,1,,0,
+1,3,HOOK,Master,Frank (son of George),Male,11,1,1,,0,
+1,3,SHARP,Master,George,Male,15,0,2,,0,
+1,3,RILEY,Miss,Ethel,Female,4,1,2,,0,
+1,3,RILEY,Miss,Sutcliffe,Female,4,1,2,,0,
+1,3,WILLIAMS,Miss,Edith,Female,9,5,1,,0,
+1,3,HOOK,Miss,Elsie (daughter of George),Female,12,1,1,,0,
+1,3,CROSBIE,Miss,Agnes,Female,24,0,0,,0,
+1,3,TOUHEY,Miss,Margaret,Female,25,0,0,,0,
+1,3,KENNY,Miss,Agnes,Female,26,0,0,,0,
+1,3,BALLANTYNE,Miss,Margaret,Female,29,0,0,,0,
+1,3,NEILSON,Miss,Gerda Theoline,Female,29,0,0,,0,
+1,3,RAWEN,Miss,Annie,Female,29,0,0,,0,
+1,3,BENJAMIN,Miss,Queenie,Female,30,0,0,,0,
+1,3,GOODWIN,Miss,Rose,Female,30,0,0,,0,
+1,3,KILLAWE,Miss,Winifred,Female,30,0,0,,0,
+1,3,WILKES,Miss,Alice Kate,Female,30,0,0,,0,
+1,3,JAMES,Miss,Violet Isabel,Female,32,0,0,,0,
+1,3,KILKENNY,Miss,Delia Mary,Female,33,0,0,,0,
+1,3,DELANEY,Miss,Mary,Female,34,0,0,,0,
+1,3,HOGAN,Miss,Jane,Female,39,0,0,,0,
+1,3,NEILSON,Miss,Violet,Female,36,0,0,,0,
+1,3,PETRONSIAN,Mr.,Kahraman,Male,16,0,0,,0,
+1,3,SHKERDOFF,Mr.,Jacob,Male,19,1,0,,0,
+1,3,TAYLOR,Mr.,Harold William,Male,21,1,0,,0,
+1,3,MAZURAK,Mr.,"Iwan ""John""",Male,22,0,0,,0,
+1,3,McDERMOTT,Mr.,Andrew,Male,22,0,0,,0,
+1,3,WOODWORD,Mr.,Robert,Male,22,0,0,,0,
+1,3,DAWSON,Mr.,Walter,Male,23,0,0,,0,
+1,3,PARKES,Mr.,William Henry,Male,23,0,0,,0,
+1,3,STEPHEN,Mr.,Thomas Ohan,Male,23,0,0,,0,
+1,3,STOCKTON,Mr.,Alfred,Male,23,0,0,,0,
+1,3,HARRISON,Mr.,George Wraith,Male,24,0,0,,0,
+1,3,JOHNSON,Mr.,Herbert K.,Male,24,0,0,,0,
+1,3,JUNCZYK,Mr.,Egor,Male,24,0,0,,0,
+1,3,BARROW,Mr.,Donald George M.,Male,25,1,0,,0,
+1,3,BOTTOMLEY,Mr.,Fred,Male,26,0,0,,0,
+1,3,GRYSZKIEWICZ,Mr.,Antoni,Male,26,0,0,,0,
+1,3,SHEPPERSON,Mr.,Arthur George,Male,26,0,0,,0,
+1,3,STRYNECHUK,Mr.,Save,Male,26,0,0,,0,
+1,3,SMETHURST,Mr.,Harold,Male,27,1,0,,0,
+1,3,ASHMAN,Mr.,Henry Clifford,Male,27,0,0,,0,
+1,3,GATELY,Mr.,John,Male,27,0,0,,0,
+1,3,GRINSTED,Mr.,S. Cyril,Male,27,0,0,,0,
+1,3,IWANUK,Mr.,Emilian,Male,27,0,0,,0,
+1,3,MATTHEWS,Mr.,Thomas,Male,27,0,0,,0,
+1,3,PERKA,Mr.,Maxim Antanow,Male,27,0,0,,0,
+1,3,FAULDS,Mr.,Andrew,Male,28,1,0,,0,
+1,3,BACKA,Mr.,Matthew,Male,28,0,0,,0,
+1,3,BOYLE,Mr.,James,Male,28,0,0,,0,
+1,3,STEVENS,Mr.,George,Male,28,0,0,,0,
+1,3,TOMASZEWICZ,Mr.,Iwan,Male,28,0,0,,0,
+1,3,SEFERIEN,Mr.,Levon,Male,29,0,0,,0,
+1,3,SOBOLOWSKI,Mr.,Mitrofan,Male,29,0,0,,0,
+1,3,STEELE,Mr.,George,Male,29,0,0,,0,
+1,3,RILEY,Mr.,Edward,Male,30,1,2,,0,
+1,3,ALEXAN,Mr.,Babajan,Male,30,0,0,,0,
+1,3,BABA,Mr.,Frank,Male,30,0,0,,0,
+1,3,BARCLAY,Mr.,George,Male,30,0,0,,0,
+1,3,BIALANS,Mr.,Stefan,Male,30,0,0,,0,
+1,3,LUKER,Mr.,Francis John,Male,30,0,0,,0,
+1,3,McCORMICK,Mr.,Thomas,Male,30,0,0,,0,
+1,3,PICKARD,Mr.,Frederick J.,Male,30,0,0,,0,
+1,3,SNOWDEN,Mr.,Thomas,Male,30,0,0,,0,
+1,3,DHENIN,Mr.,Thomas,Male,31,1,2,,0,
+1,3,VEALS,Mr.,Albert Edward,Male,31,1,0,,0,
+1,3,BROWN,Mr.,William,Male,31,0,0,,0,
+1,3,DOYLE,Mr.,Michael,Male,31,0,0,,0,
+1,3,HESKETH,Mr.,Alfred W.,Male,31,0,0,,0,
+1,3,MUIRHEAD,Mr.,William,Male,31,0,0,,0,
+1,3,FARROW,Mr.,Robert,Male,32,0,0,,0,
+1,3,LIGHT,Mr.,Herbert,Male,32,0,0,,0,
+1,3,McCLAMMOND,Mr.,Samuel,Male,32,0,0,,0,
+1,3,YOHANAN,Mr.,Alvaretz,Male,32,0,0,,0,
+1,3,BABA,Mr.,John Jacob,Male,33,0,0,,0,
+1,3,SMITH,Mr.,George,Male,33,0,0,,0,
+1,3,BOZENOF,Mr.,Dennis,Male,34,1,0,,0,
+1,3,MALICZ,Mr.,Pawel L.,Male,34,0,0,,0,
+1,3,PULIK,Mr.,Mychail,Male,34,0,0,,0,
+1,3,WELSH,Mr.,John,Male,34,0,0,,0,
+1,3,BOZENOF,Mr.,Philate,Male,35,1,0,,0,
+1,3,HEBDEN,Mr.,Robert,Male,35,1,0,,0,
+1,3,McLOUGHLIN,Mr.,Patrick J.,Male,35,0,0,,0,
+1,3,FRANKUM,Mr.,Joseph,Male,36,1,3,,0,
+1,3,BEAUCHAMP,Mr.,William,Male,36,0,0,,0,
+1,3,GILILEN,Mr.,Ellie,Male,36,0,0,,0,
+1,3,BLANKMAN,Mr.,Judka,Male,37,0,0,,0,
+1,3,GRIGORIAN,Mr.,Majlin,Male,37,0,0,,0,
+1,3,SERGIS,Mr.,George,Male,37,0,0,,0,
+1,3,COOK,Mr.,William George,Male,38,0,0,,0,
+1,3,THOMPSON,Mr.,Joseph,Male,40,1,1,,0,
+1,3,BAILEY,Mr.,Frederick Richard,Male,40,1,0,,0,
+1,3,MacKENZIE,Mr.,Robert Anderson,Male,40,0,0,,0,
+1,3,DIAMANDIS,Mr.,Theodore,Male,41,0,0,,0,
+1,3,TARACSEWICS,Mr.,Iwan,Male,42,0,0,,0,
+1,3,KOMARYSHYN,Mr.,Hryhory,Male,43,0,0,,0,
+1,3,POLUBINSKI,Mr.,Mikentii,Male,44,0,0,,0,
+1,3,HOOK,Mr.,George (father of Elsie and Frank),Male,47,0,2,,0,
+1,3,WARD,Mr.,George,Male,48,1,0,,0,
+1,3,CZERTOWICZ,Mr.,Marcin,Male,48,0,0,,0,
+1,3,BUDRIN,Mr.,Antoni,Male,50,0,0,,0,
+1,3,SHACKNELL,Mr.,William George,Male,50,0,0,,0,
+1,3,SIMPSON,Mr.,Edward,Male,50,0,0,,0,
+1,3,GRANAHAN,Mr.,Michael,Male,52,0,0,,0,
+1,3,SHARP,Mr.,Samuel S.,Male,53,1,1,,0,
+1,3,GORDON,Mr.,George,Male,36,0,0,,0,
+1,3,HANLEY,Mr.,"Patrick ""Peter""",Male,36,0,0,,0,
+1,3,TAYLOR,Mrs.,Harold William (Lucy Haddock),Female,19,1,0,,0,
+1,3,SMETHURST,Mrs.,Harold (Alice),Female,24,1,0,,0,
+1,3,HENRY,Mrs.,John (Catherine Ruane),Female,24,0,0,,0,
+1,3,ANTILA,Mrs.,Aino,Female,25,0,2,,0,
+1,3,TOBIN,Mrs.,Nora,Female,25,0,0,,0,
+1,3,MARSH,Mrs.,Thomas (Annie),Female,26,1,1,,0,
+1,3,FAULDS,Mrs.,Andrew (Margaret Allen),Female,27,1,0,,0,
+1,3,VEALS,Mrs.,Albert Edward (Agnes Maud Bailey),Female,27,2,0,,0,
+1,3,LOGAN,Mrs.,James (Ruth Cooper),Female,27,0,1,,0,
+1,3,SPENDLEY,Mrs.,David March (Kate Bermet),Female,28,1,0,,0,
+1,3,RILEY,Mrs.,Edward (Annie Taylor),Female,29,1,2,,0,
+1,3,SHARP,Mrs.,Annie,Female,32,0,0,,0,
+1,3,MARSHALL,Mrs.,Fannie E.,Female,35,0,0,,0,
+1,3,COUGHLAN,Mrs.,John (Katherine O'Neil),Female,40,1,3,,0,
+1,3,HOWLEY,Mrs.,Edward (Rose Howley),Female,42,0,0,,0,
+1,3,WARD,Mrs.,George (Ellen),Female,43,1,0,,0,
+1,3,DUNCAN,Mrs.,Kate Cassie,Female,43,0,0,,0,
+1,3,MOSES,Mrs.,George (Janet Lynn),Female,46,0,0,,0,
+1,3,DUCKWORTH,Mrs.,Alfred (Elizabeth Ann Smith),Female,52,0,0,,0,
+1,3,SHARP,Mrs.,Samuel S. (Mary Jane),Female,53,1,1,,0,
+1,3,MARTIN,Mrs.,Albert (Laura Truman),Female,56,0,0,,0,
+0,3,SLIGHT,Mr.,Harold James,Male,32,0,0,,0,
+0,3,DOMINGUES,Mr.,Manuel,Male,36,0,0,,0,
+0,3,GENANSELM,Mr.,A.,Male,36,0,0,,0,

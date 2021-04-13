@@ -17,19 +17,61 @@ Y = np.zeros((num_rows,1))
 Y[:,0] = train_data[:,1]
 #answeres
 X = np.delete(train_data, 1, 1)
+#embarked
+X = np.delete(X,10,1)
 #cabin
 #X = np.delete(X,9,1)
 #ticket
-X = np.delete(X,7,1)
+#X = np.delete(X,7,1)
+#parents
+#parents
+#X = np.delete(X,6,1)
 #names
-X = np.delete(X,2,1)
+#X = np.delete(X,2,1)
 #id
 X = np.delete(X,0,1)
 
 #ENCODING_________________________________________________________________
+print(np.shape(X))
 enc = OneHotEncoder(handle_unknown = 'ignore')
 X = enc.fit_transform(X)
 X = X.toarray()
+print(np.shape(X))
+
+
+#LISTHUANIA___________________________________________
+path = '/Users/morganharper/titanic/Listhunia/Sheet1-Table 1.csv'
+LX = pd.read_csv(path)
+LX = np.array(LX)
+LX[:,2] = LX[:,2] + LX[:,3] + LX[:,4]
+print(np.shape(LX))
+LX = np.delete(LX, 4, 1)
+LX = np.delete(LX, 3, 1)
+LY = np.expand_dims(LX[:,0],1)
+print(np.shape(LY))
+LX = np.delete(LX,0,1)
+np.random.shuffle(LX)
+print(np.shape(LX))
+
+#ENCODING_________________________________________________________________
+LX = enc.transform(LX)
+LX = LX.toarray()
+print(np.shape(LX))
+
+#PREP_______________________________________________________________________
+#norm = np.linalg.norm(X)
+#X = X/norm
+for n in range(np.size(LX,1)):
+    if np.amax(LX[:,n]) != 0:
+        LX[:,n] = LX[:,n]/np.amax(LX[:,n])
+
+#TRAIN DEV AND TEST____________________________________
+LX_TRAIN = LX[0:864,:]
+LY_TRAIN = LY[0:864,:]
+LX_DEV = LX[864:1064,:]
+LY_DEV = LY[864:1064,:]
+LX_TEST = LX[1064:,:]
+LY_TEST = LY[1064:,:]
 
 #PREP_______________________________________________________________________
 #norm = np.linalg.norm(X)
@@ -85,6 +127,7 @@ def grad_cost_log_reg(w,b,X,Y,lambd):
 
 #math function
 def sigmoid(z):
+    #z = z.astype(float)
     s = 1/(1+np.exp(-z))
     cache = z
     return s
@@ -95,10 +138,10 @@ def log_reg(w,b,X,Y,num_it,lr):
 
     costs = []
     for i in range(num_it):
-        temp_X = random.sample(range(X.shape[0]), X.shape[0]-5)
+        temp_X = random.sample(range(X.shape[0]), X.shape[0]-50)
         temp_Y = Y[temp_X[:],:]
         temp_X = X[temp_X[:],:]
-        grads, cost = grad_cost_log_reg(w,b,temp_X,temp_Y,.7)
+        grads, cost = grad_cost_log_reg(w,b,temp_X,temp_Y,0)
         w = w - lr*grads[0]
         b = b - lr*grads[1]
         costs.append(cost)
@@ -119,28 +162,62 @@ def pred(w,b,X):
     return Y_pred
 
 #model
-def model_log_reg(X_train,Y_train,X_dev,Y_dev,num_it,lr, w, b):  
-    pram, grad, costs = log_reg(w,b,X_train,Y_train,num_it,lr)
+def model_log_reg(X_train,Y_train,X_dev,Y_dev,num_it,lr, w, b):
+    pram, grad, costs = log_reg(w,b,X_train.astype(float),Y_train.astype(float),num_it,lr)
     w = pram[0]
     b = pram[1]
-    Y_pred_dev = pred(w, b, X_dev)
-    Y_pred_train = pred(w, b, X_train)
+    Y_pred_dev = pred(w, b, X_dev.astype(float))
+    Y_pred_train = pred(w, b, X_train.astype(float))
 
     print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_train - Y_train)) * 100))
     print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_dev - Y_dev)) * 100))
 
     d = {"costs": costs,
          "Y_prediction_test": Y_pred_dev, 
-         "Y_prediction_train" : Y_pred_train, 
+         "Y_prediction_train" : Y_pred_train,
+         "prec_train" : 100 - np.mean(np.abs(Y_pred_train - Y_train)) * 100,
+         "prec_dev": 100 - np.mean(np.abs(Y_pred_dev - Y_dev)) * 100, 
          "w" : w, 
          "b" : b,
          "learning_rate" : lr,
          "num_iterations": num_it}
 
     return d
-    
-w,b = inti(X_train.shape[1])
-d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 100000, .1, w, b)
-w = d["w"]
-b = d["b"]
-e = model_log_reg(X_dev, Y_dev, X_train, Y_train, 10000, .01, w, b)
+
+pred_train_train = []
+pred_train_dev = []
+pred_dev_train = []
+pred_dev_dev = []
+for i in range(100):
+    print(i)
+    w,b = inti(LX_TRAIN.shape[1])
+    print("LIST TRAIN")
+    l = model_log_reg(LX_TRAIN, LY_TRAIN, LX_DEV, LY_DEV, 10000, (i+98)*.01, w, b)
+    w = l["w"]
+    b = l["b"]
+    print("LIST DEV")
+    pred_train_train.append(l["prec_train"])
+    pred_train_dev.append(l["prec_dev"])
+    m = model_log_reg(LX_DEV, LY_DEV, LX_TEST, LY_TEST, 10000, (i+98)*.01, w, b)
+    w = m["w"]
+    b = m["b"]
+    pred_dev_train.append(m["prec_train"])
+    pred_dev_dev.append(m["prec_dev"])
+    print("T TRAIN")
+    d = model_log_reg(X_train, Y_train, X_dev, Y_dev, 10000, .5, w, b)
+    w = d["w"]
+    b = d["b"]
+    #pred_train_train.append(d["prec_train"])
+    #pred_train_dev.append(d["prec_dev"])
+    print("T DEV")
+    e = model_log_reg(X_dev, Y_dev, X_train, Y_train, 10000, .5, w, b)
+    #pred_dev_train.append(e["prec_train"])
+    #pred_dev_dev.append(e["prec_dev"])
+
+print(max(pred_train_train))
+print(pred_train_train.index(max(pred_train_train)))
+print(max(pred_dev_dev))
+print(pred_dev_dev.index(max(pred_dev_dev)))
+print(max(pred_dev_dev + pred_train_train))
+print((pred_dev_dev+pred_train_train).index(max(pred_dev_dev + pred_train_train)))
+
