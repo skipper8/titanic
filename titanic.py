@@ -192,13 +192,13 @@ for i in range(100):
     print(i)
     w,b = inti(LX_TRAIN.shape[1])
     print("LIST TRAIN")
-    l = model_log_reg(LX_TRAIN, LY_TRAIN, LX_DEV, LY_DEV, 10000, (i+98)*.01, w, b)
+    l = model_log_reg(LX_TRAIN, LY_TRAIN, LX_DEV, LY_DEV, 10000*(i+1), 1.36, w, b)
     w = l["w"]
     b = l["b"]
     print("LIST DEV")
     pred_train_train.append(l["prec_train"])
     pred_train_dev.append(l["prec_dev"])
-    m = model_log_reg(LX_DEV, LY_DEV, LX_TEST, LY_TEST, 10000, (i+98)*.01, w, b)
+    m = model_log_reg(LX_DEV, LY_DEV, LX_TEST, LY_TEST, 10000*(i+1), 1.36, w, b)
     w = m["w"]
     b = m["b"]
     pred_dev_train.append(m["prec_train"])
