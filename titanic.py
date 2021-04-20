@@ -21,9 +21,9 @@ class titanic:
         A=self.sigmoid(np.dot(X,w)+b)
         cases = int(np.size(X, 0))
         
-        cost = -1/cases * np.sum(np.multiply(Y,np.log(A))+ np.multiply((1-Y),np.log(1-A))) + 1/cases * lambd/2 * np.sum(np.square(w))
+        cost = -1/cases * np.sum(np.multiply(Y,np.log(A))+ np.multiply((1-Y),np.log(1-A)))
         
-        dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T + w*lambd/cases
+        dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T
         db = 1/np.size(X,0)*np.sum(A-Y)
         
         grads = [dw,db]
@@ -44,11 +44,10 @@ class titanic:
             temp_Y = Y[temp_X[:],:]
             temp_X = X[temp_X[:],:]
             grads, cost = self.grad_cost_log_reg(w,b,temp_X,temp_Y,0)
-            w = w - lr*grads[0]
-            b = b - lr*grads[1]
+            w = w - (1+cost)*grads[0]
+            b = b - (1+cost)*grads[1]
+            print(cost)
             costs.append(cost)
-            if(i%1000 ==0):
-                print(i/1000)
         pram = [w,b]
         print(np.shape(costs))
         return pram, grads, costs
@@ -73,7 +72,6 @@ class titanic:
         
         print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_train - self.Y)) * 100))
         print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_dev - self.YC)) * 100))
-        
         d = {"costs": costs,
              "Y_prediction_test": Y_pred_dev, 
              "Y_prediction_train" : Y_pred_train,
