@@ -44,11 +44,9 @@ X = np.delete(X,0,1)
 X[:,0] = np.square(X[:,0])
 
 #ENCODING_________________________________________________________________
-print(np.shape(X))
 enc = OneHotEncoder(handle_unknown = 'ignore')
 X = enc.fit_transform(X)
 X = X.toarray()
-print(X)
 
 #get array dimensions
 num_rows = np.size(train_data, 0)
@@ -126,7 +124,6 @@ LX = np.delete(LX, 2, 1)
 
 #labeling
 LY = np.expand_dims(LX[:,0],1)
-print(np.shape(LY))
 LX = np.delete(LX,0,1)
 
 LX[:,0] = np.square(LX[:,0])
@@ -139,7 +136,6 @@ print(np.shape(LX))
 #ENCODING_________________________________________________________________
 LX = enc.transform(LX)
 LX = LX.toarray()
-print(LX)
 
 #PREP_______________________________________________________________________
 #norm = np.linalg.norm(X)
@@ -167,55 +163,57 @@ pred_train_train = []
 pred_train_dev = []
 pred_dev_train = []
 pred_dev_dev = []
-fig, axs = plt.subplots(6)
+fig, axs = plt.subplots(8)
 w,b = inti(LX_TRAIN.shape[1])
 print("LIST TRAIN")
-list_train = titanic(LX_TRAIN, LY_TRAIN, LX_DEV, LY_DEV, 2000, .02, w, b)
+list_train = titanic(LX, LY, X_train, Y_train, 50, 5, w, b, "sigmoid")
 l = list_train.model_log_reg()
 w = l["w"]
 b = l["b"]
 axs[0].plot(range(len(l["costs"])), l["costs"])
-print("LIST DEV")
-pred_train_train.append(l["prec_train"])
-pred_train_dev.append(l["prec_dev"])
-List_Dev = titanic(LX_DEV, LY_DEV, LX_TEST, LY_TEST, 2000, 1.36, w, b)
-m = List_Dev.model_log_reg()
-w = m["w"]
-b = m["b"]
-axs[1].plot(range(len(m["costs"])), m["costs"])
-print("LIST TEST")
-List_test = titanic(LX_TEST, LY_TEST, LX_TRAIN, LY_TRAIN, 2000, 1.36, w, b)
-n = List_test.model_log_reg()
-w = n["w"]
-b = n["b"]
-axs[2].plot(range(len(n["costs"])), n["costs"])
-pred_dev_train.append(m["prec_train"])
-pred_dev_dev.append(m["prec_dev"])
 print("T TRAIN")
-T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 2000, .5, w, b)
+T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 300, .5, w, b, "sigmoid")
 d = T_TRAIN.model_log_reg()
 w = d["w"]
 b = d["b"]
-axs[3].plot(range(len(d["costs"])), d["costs"])
+axs[1].plot(range(len(d["costs"])), d["costs"])
 #pred_train_train.append(d["prec_train"])
 #pred_train_dev.append(d["prec_dev"])
 print("T DEV")
-T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 2000, .5, w, b)
+T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 250, 5, w, b, "sigmoid")
 e = T_DEV.model_log_reg()
 w = e["w"]
 b = e["b"]
-axs[4].plot(range(len(e["costs"])), e["costs"])
+axs[2].plot(range(len(e["costs"])), e["costs"])
 print("T test")
-T_TEST = titanic(X_test, Y_test, X_train, Y_train, 2000, .5, w, b)
+T_TEST = titanic(X_test, Y_test, X_train, Y_train, 250, 5, w, b, "sigmoid")
 f = T_TEST.model_log_reg()
-axs[5].plot(range(len(f["costs"])), f["costs"])
-#pred_dev_train.append(e["prec_train"])
-#pred_dev_dev.append(e["prec_dev"])
+axs[3].plot(range(len(f["costs"])), f["costs"])
+print("tanh")
+w,b = inti(LX_TRAIN.shape[1])
+print("LIST TRAIN")
+list_train = titanic(LX, LY, X_train, Y_train, 50, 5, w, b, "tanh")
+r = list_train.model_log_reg()
+w = l["w"]
+b = l["b"]
+axs[4].plot(range(len(l["costs"])), l["costs"])
+print("T TRAIN")
+T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 300, .5, w, b, "tanh")
+s = T_TRAIN.model_log_reg()
+w = d["w"]
+b = d["b"]
+axs[5].plot(range(len(d["costs"])), d["costs"])
+#pred_train_train.append(d["prec_train"])
+#pred_train_dev.append(d["prec_dev"])
+print("T DEV")
+T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 250, 5, w, b, "tanh")
+t = T_DEV.model_log_reg()
+w = e["w"]
+b = e["b"]
+axs[6].plot(range(len(e["costs"])), e["costs"])
+print("T test")
+T_TEST = titanic(X_test, Y_test, X_train, Y_train, 250, 5, w, b, "tanh")
+u = T_TEST.model_log_reg()
+axs[7].plot(range(len(f["costs"])), f["costs"])
 
-print(max(pred_train_train))
-print(pred_train_train.index(max(pred_train_train)))
-print(max(pred_dev_dev))
-print(pred_dev_dev.index(max(pred_dev_dev)))
-print(max(pred_dev_dev + pred_train_train))
-print((pred_dev_dev+pred_train_train).index(max(pred_dev_dev + pred_train_train)))
 plt.show()

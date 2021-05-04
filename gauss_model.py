@@ -4,12 +4,9 @@ import string
 from sklearn.preprocessing import OneHotEncoder
 import matplotlib.pyplot as plt
 import random
-import warnings
-
-
 
 class titanic:
-    def __init__(self, X, Y,CompX, CompY, num_it, lr, W, b, act):
+    def __init__(self, X, Y,CompX, CompY, num_it, lr, W, b):
         self.X = X
         self.Y = Y
         self.XC = CompX
@@ -18,25 +15,16 @@ class titanic:
         self.lr = lr
         self.W = W
         self.b = b
-        self.act = act
     
     #cost function
     def grad_cost_log_reg(self, w,b, X,Y,lambd):
-        if(self.act == "sigmoid"):
-            A=self.sigmoid(np.dot(X,w)+b)
-        else:
-            A = self.tanh(np.dot(X,w) + b)
+        A=self.sigmoid(np.dot(X,w)+b)
         cases = int(np.size(X, 0))
         
-        cost = -1/cases * np.sum(np.multiply(Y,self.safe_ln(A))+ np.multiply((1-Y),self.safe_ln(1-A)))
-        print(cost)
-        if(self.act == "sigmoid"):
-            dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T
-            db = 1/np.size(X,0)*np.sum(A-Y)
-        else:
-            dw=(1/np.size(X,0)*np.dot(np.multiply((A-np.multiply(Y,A)+np.multiply(A,A)-Y),1/(A+.001)).T, X)).T
-            db = 1/np.size(X,0)*np.sum(np.multiply((A-np.multiply(Y,A)+np.multiply(A,A)-Y),1/(A+.001)))
-
+        cost = -1/cases * np.sum(np.multiply(Y,np.log(A))+ np.multiply((1-Y),np.log(1-A)))
+        
+        dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T
+        db = 1/np.size(X,0)*np.sum(A-Y)
         
         grads = [dw,db]
         return grads, cost
@@ -47,19 +35,6 @@ class titanic:
         cache = z
         return s
     
-    def tanh(self, z):
-        s = (np.exp(z)-np.exp(-z))/(np.exp(z)+np.exp(-z))
-        cache = z
-        return s
-   
-    def safe_ln(self, x):
-        warnings.simplefilter("error", RuntimeWarning)
-        try:
-           ln = np.log(x)
-        except:
-           ln = 0
-        return ln
- 
     
     #logistic regression
     def log_reg(self, w,b,X,Y,num_it,lr):
@@ -71,6 +46,7 @@ class titanic:
             grads, cost = self.grad_cost_log_reg(w,b,temp_X,temp_Y,0)
             w = w - (1+cost)*grads[0]
             b = b - (1+cost)*grads[1]
+            print(cost)
             costs.append(cost)
         pram = [w,b]
         print(np.shape(costs))
