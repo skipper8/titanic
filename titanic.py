@@ -27,7 +27,6 @@ class titanic:
         else:
             A = self.tanh(np.dot(X,w) + b)
         cases = int(np.size(X, 0))
-        
         cost = -1/cases * np.sum(np.multiply(Y,self.safe_ln(A))+ np.multiply((1-Y),self.safe_ln(1-A)))
         print(cost)
         if(self.act == "sigmoid"):
@@ -43,14 +42,12 @@ class titanic:
     
     #math function
     def sigmoid(self, z):
-        s = 1/(1+np.exp(np.round(-z, 10)))
+        s = 1/(1+self.safe_exp(-z))
         cache = z
         return s
     
     def tanh(self, z):
-        print("z")
-        print(z)
-        s = (np.exp(np.round(z, 10))-np.exp(np.round(-z, 10)))/(np.exp(np.round(z, 10))+np.exp(np.round(-z, 10)))
+        s  = (self.safe_exp(z)-self.safe_exp(-z))/(self.safe_exp(z)+self.safe_exp(-z))
         cache = z
         return s
    
@@ -61,6 +58,13 @@ class titanic:
         except:
            ln = 0
         return ln
+    
+    def safe_exp(self, x):
+        try:
+           e = np.exp(x)
+        except:
+           e = 100000
+        return e
  
     
     #logistic regression
