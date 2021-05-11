@@ -10,7 +10,7 @@ import warnings
 
 class titanic:
     def __init__(self, X, Y,CompX, CompY, num_it, lr, W, b, act):
-        self.X = X
+        self.X = np.array(X, dtype=np.longdouble)
         self.Y = Y
         self.XC = CompX
         self.YC = CompY
@@ -43,12 +43,14 @@ class titanic:
     
     #math function
     def sigmoid(self, z):
-        s = 1/(1+np.exp(-z))
+        s = 1/(1+np.exp(np.round(-z, 10)))
         cache = z
         return s
     
     def tanh(self, z):
-        s = (np.exp(z)-np.exp(-z))/(np.exp(z)+np.exp(-z))
+        print("z")
+        print(z)
+        s = (np.exp(np.round(z, 10))-np.exp(np.round(-z, 10)))/(np.exp(np.round(z, 10))+np.exp(np.round(-z, 10)))
         cache = z
         return s
    
@@ -73,7 +75,6 @@ class titanic:
             b = b - (1+cost)*grads[1]
             costs.append(cost)
         pram = [w,b]
-        print(np.shape(costs))
         return pram, grads, costs
     
     
