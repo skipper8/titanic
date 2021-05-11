@@ -28,6 +28,7 @@ class titanic:
             A = self.tanh(np.dot(X,w) + b)
         cases = int(np.size(X, 0))
         cost = -1/cases * np.sum(np.multiply(Y,self.safe_ln(A))+ np.multiply((1-Y),self.safe_ln(1-A)))
+        cost = abs(cost)
         print(cost)
         if(self.act == "sigmoid"):
             dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T
@@ -47,24 +48,41 @@ class titanic:
         return s
     
     def tanh(self, z):
-        s  = (self.safe_exp(z)-self.safe_exp(-z))/(self.safe_exp(z)+self.safe_exp(-z))
+        s  = np.divide((self.safe_exp(z)-self.safe_exp(-z)),(self.safe_exp(z)+self.safe_exp(-z)+.0001))
         cache = z
         return s
    
     def safe_ln(self, x):
         warnings.simplefilter("error", RuntimeWarning)
-        try:
-           ln = np.log(x)
-        except:
-           ln = 0
-        return ln
+        for row in range(np.size(x,0)):
+            for col in range(np.size(x,1)):
+                if(x[row,col] < .0005) :
+                    try:
+                       x[row,col] = log(x[row],[col])
+                    except:
+                       x[row,col] = -100000
+                else:
+                    try:
+                       x[row,col] = log(x[row],[col])
+                    except:
+                       x[row,col] = 0
+        return x
+
     
-    def safe_exp(self, x):
-        try:
-           e = np.exp(x)
-        except:
-           e = 100000
-        return e
+    def safe_exp(self, x): 
+       for row in range(np.size(x,0)):
+            for col in range(np.size(x,1)):
+                if(x[row,col] > 10) :    
+                    try:
+                       x[row,col] = exp(x[row],[col])
+                    except:
+                       x[row,col] = 100000
+                else:
+                    try:
+                       x[row,col] = exp(x[row],[col])
+                    except:
+                       x[row,col] = 0 
+       return x
  
     
     #logistic regression

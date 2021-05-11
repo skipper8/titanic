@@ -192,7 +192,7 @@ axs[3].plot(range(len(f["costs"])), f["costs"])
 print("tanh")
 w,b = inti(LX_TRAIN.shape[1])
 print("LIST TRAIN")
-list_train = titanic(LX, LY, X_train, Y_train, 50, 5, w, b, "tanh")
+list_train = titanic(LX, LY, X_train, Y_train, 5000, 5, w, b, "tanh")
 r = list_train.model_log_reg()
 w = r["w"]
 b = r["b"]
