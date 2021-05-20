@@ -4,12 +4,19 @@ import string
 from sklearn.preprocessing import OneHotEncoder
 import matplotlib.pyplot as plt
 import random
+from act import act
+from safe import safe
+from costs import costs
 import warnings
 
+class InvalidActivation(Exception):
+    """Invalid Activation"""
 
+class InvalidCost(Exception):
+    """Invalid Cost"""
 
 class titanic:
-    def __init__(self, X, Y,CompX, CompY, num_it, lr, W, b, act):
+    def __init__(self, X, Y,CompX, CompY, num_it, lr, W, b, activation, c):
         self.X = np.array(X, dtype=np.longdouble)
         self.Y = Y
         self.XC = CompX
@@ -18,71 +25,79 @@ class titanic:
         self.lr = lr
         self.W = W
         self.b = b
-        self.act = act
+        self.actvation = activation
+        self.c = c
+        self.act = act()
+        self.costs = costs()
+        self.safe = safe()
     
     #cost function
     def grad_cost_log_reg(self, w,b, X,Y,lambd):
-        if(self.act == "sigmoid"):
-            A=self.sigmoid(np.dot(X,w)+b)
+        if(self.actvation == "sigmoid"):
+            A=self.act.sigmoid(np.dot(X,w)+b)
+        elif(self.actvation == "tanh"):
+            A = self.act.tanh(np.dot(X,w) + b)
+        elif(self.actvation == "relu"):
+            A = self.act.relu(np.dot(X,w) + b)
+        elif(self.actvation == "leaky_relu"):
+            A = self.act.leaky_relu(np.dot(X,w) + b)
+        elif(self.actvation == "exp_relu"):
+            A = self.act.exp_relu(np.dot(X,w) + b)
+        elif(self.actvation == "swish"):
+            A = self.act.swish(np.dot(X,w) + b)
+        elif(self.actvation == "softplus"):
+            A = self.act.softplus(np.dot(X,w) + b)
+        elif(self.actvation == "gaussian"):
+            A = self.act.gaussian(np.dot(X,w) + b)
         else:
-            A = self.tanh(np.dot(X,w) + b)
+            raise InvalidActivation
         cases = int(np.size(X, 0))
-        cost = -1/cases * np.sum(np.multiply(Y,self.safe_ln(A))+ np.multiply((1-Y),self.safe_ln(1-A)))
-        cost = abs(cost)
-        print(cost)
-        if(self.act == "sigmoid"):
-            dw=(1/np.size(X,0)*np.dot((A-Y).T, X)).T
-            db = 1/np.size(X,0)*np.sum(A-Y)
+        if(self.c == "quad"):
+            cost = self.costs.quad(A, Y, cases)
+            prime  = self.costs.quad_prime(A,Y)
+        elif(self.c == "cross_entropy"):
+            cost = self.costs.cross_entropy(A, Y, cases)
+            prime = self.costs.cross_entropy_prime(A, Y)
+        elif(self.c == "expc"):
+            cost = self.costs.expc(A, Y, 1, cases)
+            prime = self.costs.expc_prime(A, Y, 1, cases)
+        elif(self.c == "hell"):
+            cost = self.costs.hell(A, Y, cases)
+            prime = self.costs.hell_prime(A, Y)
+        elif(self.c == "KLD"):
+            cost = self.costs.KLD(A, Y, cases)
+            prime = self.costs.KLD_prime(A, Y)
+        elif(self.c == "ISD"):
+            cost = self.costs.ISD(A, Y, cases)
+            prime = self.costs.ISD_prime(A, Y)
         else:
-            dw=(1/np.size(X,0)*np.dot(np.multiply((A-np.multiply(Y,A)+np.multiply(A,A)-Y),1/(A+.001)).T, X)).T
-            db = 1/np.size(X,0)*np.sum(np.multiply((A-np.multiply(Y,A)+np.multiply(A,A)-Y),1/(A+.001)))
-
-        
+            raise InvalidCost
+        if(self.actvation == "sigmoid"):
+            dw=np.dot(np.multiply(self.act.sigmoid_prime(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.sigmoid_prime(np.dot(X,w)+b), prime))
+        elif(self.actvation == "tanh"):
+            dw=np.dot(np.multiply(self.act.tanh_prime(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.tanh_prime(np.dot(X,w)+b), prime))
+        elif(self.actvation == "relu"):
+            dw=np.dot(np.multiply(self.act.relu_prime(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.relu_prime(np.dot(X,w)+b), prime))
+        elif(self.actvation == "leaky_relu"):
+            dw=np.dot(np.multiply(self.act.leaky_relu_prime(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.leaky_relu_prime(np.dot(X,w)+b), prime))
+        elif(self.actvation == "exp_relu"):
+            dw=np.dot(np.multiply(self.act.exp_relu_prime(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.exp_relu_prime(np.dot(X,w)+b), prime))
+        elif(self.actvation == "swish"):
+            dw=np.dot(np.multiply(self.act.swish(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.swish(np.dot(X,w)+b), prime))
+        elif(self.actvation == "softplus"):
+            dw=np.dot(np.multiply(self.act.softplus_prime(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.softplus_prime(np.dot(X,w)+b), prime))
+        elif(self.actvation == "gaussian"):
+            dw=np.dot(np.multiply(self.act.gaussian_prime(np.dot(X,w)+b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.gaussian_prime(np.dot(X,w)+b), prime))
         grads = [dw,db]
         return grads, cost
-    
-    #math function
-    def sigmoid(self, z):
-        s = 1/(1+self.safe_exp(-z))
-        cache = z
-        return s
-    
-    def tanh(self, z):
-        s  = np.divide((self.safe_exp(z)-self.safe_exp(-z)),(self.safe_exp(z)+self.safe_exp(-z)+.0001))
-        cache = z
-        return s
-   
-    def safe_ln(self, x):
-        warnings.simplefilter("error", RuntimeWarning)
-        for row in range(np.size(x,0)):
-            for col in range(np.size(x,1)):
-                if(x[row,col] < .0005) :
-                    try:
-                       x[row,col] = log(x[row],[col])
-                    except:
-                       x[row,col] = -100000
-                else:
-                    try:
-                       x[row,col] = log(x[row],[col])
-                    except:
-                       x[row,col] = 0
-        return x
-
-    
-    def safe_exp(self, x): 
-       for row in range(np.size(x,0)):
-            for col in range(np.size(x,1)):
-                if(x[row,col] > 10) :    
-                    try:
-                       x[row,col] = exp(x[row],[col])
-                    except:
-                       x[row,col] = 100000
-                else:
-                    try:
-                       x[row,col] = exp(x[row],[col])
-                    except:
-                       x[row,col] = 0 
-       return x
  
     
     #logistic regression
@@ -93,8 +108,9 @@ class titanic:
             temp_Y = Y[temp_X[:],:]
             temp_X = X[temp_X[:],:]
             grads, cost = self.grad_cost_log_reg(w,b,temp_X,temp_Y,0)
-            w = w - (1+cost)*grads[0]
-            b = b - (1+cost)*grads[1]
+            print(np.max(grads[0]*lr))
+            w = w - grads[0]*lr
+            b = b - grads[1]*lr
             costs.append(cost)
         pram = [w,b]
         return pram, grads, costs
@@ -105,7 +121,7 @@ class titanic:
         m = X.shape[0]
         Y_pred = np.zeros((1,m))
         w = w.reshape(X.shape[1],1)
-        A =self.sigmoid(np.dot(X,w)+b)
+        A =self.act.sigmoid(np.dot(X,w)+b)
         Y_pred =np.round(A)
         return Y_pred
     
