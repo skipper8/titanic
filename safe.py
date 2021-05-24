@@ -10,21 +10,26 @@ class safe():
         warnings.simplefilter("error", RuntimeWarning)
 
     def ln(self, x):
-        try:
-            x = np.log(x)
-        except:
-            if( x.all()>0):
-              x = 10,000
-            else:
-              x = -10,000
+        
+        for i in x:
+            for j in i:
+                try:
+                    j = np.log(j)
+                except:
+                    if( j>0):
+                         j = 10,000
+                    else:
+                         j = -10,000
         return x
 
     def exp(self, x):
-        try:
-           x = np.exp(x)
-        except:
-           if(x.all() > 0):
-               x = 22000
-           else:
-               x = 0
+        for i in x:
+            for j in i:
+                try:
+                    j = np.exp(j)
+                except:
+                    if( j>0):
+                         j = 10,000
+                    else:
+                         j = .01
         return x

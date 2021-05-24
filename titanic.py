@@ -72,11 +72,17 @@ class titanic:
             prime = self.costs.ISD_prime(A, Y)
         else:
             raise InvalidCost
+        print("cost prime")
+        print(prime)
         if(self.actvation == "sigmoid"):
             dw=np.dot(np.multiply(self.act.sigmoid_prime(np.dot(X,w)+b), prime).T, X).T
             db = 1/cases*np.sum(np.multiply(self.act.sigmoid_prime(np.dot(X,w)+b), prime))
         elif(self.actvation == "tanh"):
             dw=np.dot(np.multiply(self.act.tanh_prime(np.dot(X,w)+b), prime).T, X).T
+            print("tanh_prime")
+            print(self.act.tanh_prime(np.dot(X,w)+b))
+            print("dw")
+            print(dw)
             db = 1/cases*np.sum(np.multiply(self.act.tanh_prime(np.dot(X,w)+b), prime))
         elif(self.actvation == "relu"):
             dw=np.dot(np.multiply(self.act.relu_prime(np.dot(X,w)+b), prime).T, X).T

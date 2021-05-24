@@ -20,7 +20,7 @@ class costs():
         return np.sum(np.multiply(y, self.safe.ln(x)) + np.multiply(1-y, self.safe.ln(1-x)))/cases
 
     def cross_entropy_prime(self, x, y):
-        return np.divide(x-y, np.multiply(1-x+.00000001, x+.000000001))
+        return np.divide(y-x, np.multiply(1-x, x)+.01)
 
     def expc(self, x, y, t, cases):
         return t*self.safe.exp(2*self.qaud(x,y, cases)/t)

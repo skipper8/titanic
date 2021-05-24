@@ -17,7 +17,7 @@ class act():
         return np.multiply(self.sigmoid(x), 1-self.sigmoid(x))
 
     def tanh(self, x):
-        return np.divide(self.safe.exp(x)-self.safe.exp(-x), self.safe.exp(x) + self.safe.exp(-x))
+        return np.divide(self.safe.exp(x)-self.safe.exp(-x), self.safe.exp(x) + self.safe.exp(-x)+.000001)
 
     def tanh_prime(self, x):
         return 1-np.square(self.tanh(x))

@@ -166,13 +166,13 @@ pred_dev_dev = []
 fig, axs = plt.subplots(8)
 w,b = inti(LX_TRAIN.shape[1])
 print("LIST TRAIN")
-list_train = titanic(LX, LY, X_train, Y_train, 50, 500, w, b, "sigmoid", "cross_entropy")
+list_train = titanic(LX, LY, X_train, Y_train, 50, .5, w, b, "sigmoid", "cross_entropy")
 l = list_train.model_log_reg()
 w = l["w"]
 b = l["b"]
 axs[0].plot(range(len(l["costs"])), l["costs"])
 print("T TRAIN")
-T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 300, 1000000000, w, b, "sigmoid", "cross_entropy")
+T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 300, .5, w, b, "sigmoid", "cross_entropy")
 d = T_TRAIN.model_log_reg()
 w = d["w"]
 b = d["b"]
