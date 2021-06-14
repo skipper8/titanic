@@ -163,7 +163,7 @@ pred_train_train = []
 pred_train_dev = []
 pred_dev_train = []
 pred_dev_dev = []
-fig, axs = plt.subplots(8)
+fig, axs = plt.subplots(4)
 w,b = inti(LX_TRAIN.shape[1])
 print("LIST TRAIN")
 list_train = titanic(LX, LY, X_train, Y_train, 50, 5, w, b, "sigmoid")
@@ -189,31 +189,31 @@ print("T test")
 T_TEST = titanic(X_test, Y_test, X_train, Y_train, 250, 5, w, b, "sigmoid")
 f = T_TEST.model_log_reg()
 axs[3].plot(range(len(f["costs"])), f["costs"])
-print("tanh")
-w,b = inti(LX_TRAIN.shape[1])
-print("LIST TRAIN")
-list_train = titanic(LX, LY, X_train, Y_train, 50, 5, w, b, "tanh")
-r = list_train.model_log_reg()
-w = l["w"]
-b = l["b"]
-axs[4].plot(range(len(l["costs"])), l["costs"])
-print("T TRAIN")
-T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 300, .5, w, b, "tanh")
-s = T_TRAIN.model_log_reg()
-w = d["w"]
-b = d["b"]
-axs[5].plot(range(len(d["costs"])), d["costs"])
+#print("tanh")
+#w,b = inti(LX_TRAIN.shape[1])
+#print("LIST TRAIN")
+#list_train = titanic(LX, LY, X_train, Y_train, 50, 5, w, b, "tanh")
+#r = list_train.model_log_reg()
+#w = l["w"]
+#b = l["b"]
+#axs[4].plot(range(len(l["costs"])), l["costs"])
+#print("T TRAIN")
+#T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 300, .5, w, b, "tanh")
+#s = T_TRAIN.model_log_reg()
+#w = d["w"]
+#b = d["b"]
+#axs[5].plot(range(len(d["costs"])), d["costs"])
 #pred_train_train.append(d["prec_train"])
 #pred_train_dev.append(d["prec_dev"])
-print("T DEV")
-T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 250, 5, w, b, "tanh")
-t = T_DEV.model_log_reg()
-w = e["w"]
-b = e["b"]
-axs[6].plot(range(len(e["costs"])), e["costs"])
-print("T test")
-T_TEST = titanic(X_test, Y_test, X_train, Y_train, 250, 5, w, b, "tanh")
-u = T_TEST.model_log_reg()
-axs[7].plot(range(len(f["costs"])), f["costs"])
+#print("T DEV")
+#T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 250, 5, w, b, "tanh")
+#t = T_DEV.model_log_reg()
+#w = e["w"]
+#b = e["b"]
+#axs[6].plot(range(len(e["costs"])), e["costs"])
+#print("T test")
+#T_TEST = titanic(X_test, Y_test, X_train, Y_train, 250, 5, w, b, "tanh")
+#u = T_TEST.model_log_reg()
+#axs[7].plot(range(len(f["costs"])), f["costs"])
 
 plt.show()
