@@ -167,7 +167,7 @@ fig, axs = plt.subplots(4)
 w,b = inti(LX_TRAIN.shape[1])
 temp_w = w
 print("LIST TRAIN")
-list_train = titanic(LX, LY, X_train, Y_train, 50000, .5, w, b, "sigmoid", "cross_entropy")
+list_train = titanic(LX, LY, X_train, Y_train, 50, 5, w, b, "sigmoid", "cross_entropy")
 l = list_train.model_log_reg()
 w = l["w"]
 b = l["b"]
@@ -181,13 +181,13 @@ axs[1].plot(range(len(d["costs"])), d["costs"])
 #pred_train_train.append(d["prec_train"])
 #pred_train_dev.append(d["prec_dev"])
 print("T DEV")
-T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 50, .1, w, b, "sigmoid", "cross_entropy")
+T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 250, 5, w, b, "sigmoid", "cross_entropy")
 e = T_DEV.model_log_reg()
 w = e["w"]
 b = e["b"]
 axs[2].plot(range(len(e["costs"])), e["costs"])
 print("T test")
-T_TEST = titanic(X_test, Y_test, X_train, Y_train, 50, .1, w, b, "sigmoid", "cross_entropy")
+T_TEST = titanic(X_test, Y_test, X_train, Y_train, 250, 5, w, b, "sigmoid", "cross_entropy")
 f = T_TEST.model_log_reg()
 axs[3].plot(range(len(f["costs"])), f["costs"])
 #print("tanh")
