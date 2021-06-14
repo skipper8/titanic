@@ -9,12 +9,18 @@ from safe import safe
 class act():
     def __init__(self):
         self.safe = safe()
-
+    
     def sigmoid(self, x):
-        return 1/(1+self.safe.exp(-x))
-
+        return 1/(1+np.exp(-x))
+    
     def sigmoid_prime(self, x):
         return np.multiply(self.sigmoid(x), 1-self.sigmoid(x))
+
+    def safe_sigmoid(self, x):
+        return 1/(1+self.safe.exp(-x))
+
+    def safe_sigmoid_prime(self, x):
+        return np.multiply(self.safe_sigmoid(x), 1-self.safe_sigmoid(x))
 
     def tanh(self, x):
         return np.divide(self.safe.exp(x)-self.safe.exp(-x), self.safe.exp(x) + self.safe.exp(-x)+.000001)

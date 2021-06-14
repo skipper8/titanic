@@ -155,7 +155,7 @@ LY_TEST = LY[1064:,:]
 
 #setup
 def inti(a):
-    w = np.zeros((a,1))
+    w = np.random.rand(a,1)
     b = 0
     return w,b
 
@@ -163,12 +163,14 @@ pred_train_train = []
 pred_train_dev = []
 pred_dev_train = []
 pred_dev_dev = []
-fig, axs = plt.subplots(8)
+fig, axs = plt.subplots(4)
 w,b = inti(LX_TRAIN.shape[1])
+temp_w = w
 print("LIST TRAIN")
-list_train = titanic(LX, LY, X_train, Y_train, 50, .5, w, b, "sigmoid", "cross_entropy")
+list_train = titanic(LX, LY, X_train, Y_train, 50000, .5, w, b, "sigmoid", "cross_entropy")
 l = list_train.model_log_reg()
 w = l["w"]
+print(temp_w-w)
 b = l["b"]
 axs[0].plot(range(len(l["costs"])), l["costs"])
 print("T TRAIN")
@@ -191,29 +193,29 @@ f = T_TEST.model_log_reg()
 axs[3].plot(range(len(f["costs"])), f["costs"])
 print("tanh")
 w,b = inti(LX_TRAIN.shape[1])
-print("LIST TRAIN")
-list_train = titanic(LX, LY, X_train, Y_train, 50, .1, w, b, "tanh", "cross_entropy")
-r = list_train.model_log_reg()
-w = r["w"]
-b = r["b"]
-axs[4].plot(range(len(r["costs"])), r["costs"])
-print("T TRAIN")
-T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 50, .1, w, b, "tanh", "cross_entropy")
-s = T_TRAIN.model_log_reg()
-w = s["w"]
-b = s["b"]
-axs[5].plot(range(len(s["costs"])), s["costs"])
+#print("LIST TRAIN")
+#list_train = titanic(LX, LY, X_train, Y_train, 50, .1, w, b, "tanh", "cross_entropy")
+#r = list_train.model_log_reg()
+#w = r["w"]
+#b = r["b"]
+#axs[4].plot(range(len(r["costs"])), r["costs"])
+#print("T TRAIN")
+#T_TRAIN = titanic(X_train, Y_train, X_dev, Y_dev, 50, .1, w, b, "tanh", "cross_entropy")
+#s = T_TRAIN.model_log_reg()
+#w = s["w"]
+#b = s["b"]
+#axs[5].plot(range(len(s["costs"])), s["costs"])
 #pred_train_train.append(d["prec_train"])
 #pred_train_dev.append(d["prec_dev"])
-print("T DEV")
-T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 50, .1, w, b, "tanh", "cross_entropy")
-t = T_DEV.model_log_reg()
-w = t["w"]
-b = t["b"]
-axs[6].plot(range(len(t["costs"])), t["costs"])
-print("T test")
-T_TEST = titanic(X_test, Y_test, X_train, Y_train, 50, .1, w, b, "tanh", "cross_entropy")
-u = T_TEST.model_log_reg()
-axs[7].plot(range(len(u["costs"])), u["costs"])
+#print("T DEV")
+#T_DEV = titanic(X_dev, Y_dev, X_test, Y_test, 50, .1, w, b, "tanh", "cross_entropy")
+#t = T_DEV.model_log_reg()
+#w = t["w"]
+#b = t["b"]
+#axs[6].plot(range(len(t["costs"])), t["costs"])
+#print("T test")
+#T_TEST = titanic(X_test, Y_test, X_train, Y_train, 50, .1, w, b, "tanh", "cross_entropy")
+#u = T_TEST.model_log_reg()
+#axs[7].plot(range(len(u["costs"])), u["costs"])
 
 plt.show()

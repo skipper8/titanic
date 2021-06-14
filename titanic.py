@@ -32,23 +32,23 @@ class titanic:
         self.safe = safe()
     
     #cost function
-    def grad_cost_log_reg(self, w,b, X,Y,lambd):
+    def grad_cost_log_reg(self, X,Y,lambd):
         if(self.actvation == "sigmoid"):
-            A=self.act.sigmoid(np.dot(X,w)+b)
+            A=self.act.sigmoid(np.dot(X,self.W)+self.b)
         elif(self.actvation == "tanh"):
-            A = self.act.tanh(np.dot(X,w) + b)
+            A = self.act.tanh(np.dot(X,self.W) + self.b)
         elif(self.actvation == "relu"):
-            A = self.act.relu(np.dot(X,w) + b)
+            A = self.act.relu(np.dot(X,self.W) + self.b)
         elif(self.actvation == "leaky_relu"):
-            A = self.act.leaky_relu(np.dot(X,w) + b)
+            A = self.act.leaky_relu(np.dot(X,self.W) + self.b)
         elif(self.actvation == "exp_relu"):
-            A = self.act.exp_relu(np.dot(X,w) + b)
+            A = self.act.exp_relu(np.dot(X,self.W) + self.b)
         elif(self.actvation == "swish"):
-            A = self.act.swish(np.dot(X,w) + b)
+            A = self.act.swish(np.dot(X,self.W) + self.b)
         elif(self.actvation == "softplus"):
-            A = self.act.softplus(np.dot(X,w) + b)
+            A = self.act.softplus(np.dot(X,self.W) + self.b)
         elif(self.actvation == "gaussian"):
-            A = self.act.gaussian(np.dot(X,w) + b)
+            A = self.act.gaussian(np.dot(X,self.W) + self.b)
         else:
             raise InvalidActivation
         cases = int(np.size(X, 0))
@@ -72,72 +72,62 @@ class titanic:
             prime = self.costs.ISD_prime(A, Y)
         else:
             raise InvalidCost
-        print("cost prime")
-        print(prime)
         if(self.actvation == "sigmoid"):
-            dw=np.dot(np.multiply(self.act.sigmoid_prime(np.dot(X,w)+b), prime).T, X).T
-            db = 1/cases*np.sum(np.multiply(self.act.sigmoid_prime(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.sigmoid_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.sigmoid_prime(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "tanh"):
-            dw=np.dot(np.multiply(self.act.tanh_prime(np.dot(X,w)+b), prime).T, X).T
-            print("tanh_prime")
-            print(self.act.tanh_prime(np.dot(X,w)+b))
-            print("dw")
-            print(dw)
-            db = 1/cases*np.sum(np.multiply(self.act.tanh_prime(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.tanh_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.tanh_prime(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "relu"):
-            dw=np.dot(np.multiply(self.act.relu_prime(np.dot(X,w)+b), prime).T, X).T
-            db = 1/cases*np.sum(np.multiply(self.act.relu_prime(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.relu_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.relu_prime(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "leaky_relu"):
-            dw=np.dot(np.multiply(self.act.leaky_relu_prime(np.dot(X,w)+b), prime).T, X).T
-            db = 1/cases*np.sum(np.multiply(self.act.leaky_relu_prime(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.leaky_relu_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.leaky_relu_prime(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "exp_relu"):
-            dw=np.dot(np.multiply(self.act.exp_relu_prime(np.dot(X,w)+b), prime).T, X).T
-            db = 1/cases*np.sum(np.multiply(self.act.exp_relu_prime(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.exp_relu_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.exp_relu_prime(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "swish"):
-            dw=np.dot(np.multiply(self.act.swish(np.dot(X,w)+b), prime).T, X).T
-            db = 1/cases*np.sum(np.multiply(self.act.swish(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.swish(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.swish(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "softplus"):
-            dw=np.dot(np.multiply(self.act.softplus_prime(np.dot(X,w)+b), prime).T, X).T
-            db = 1/cases*np.sum(np.multiply(self.act.softplus_prime(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.softplus_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.softplus_prime(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "gaussian"):
-            dw=np.dot(np.multiply(self.act.gaussian_prime(np.dot(X,w)+b), prime).T, X).T
-            db = 1/cases*np.sum(np.multiply(self.act.gaussian_prime(np.dot(X,w)+b), prime))
+            dw=np.dot(np.multiply(self.act.gaussian_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            db = 1/cases*np.sum(np.multiply(self.act.gaussian_prime(np.dot(X,self.W)+self.b), prime))
         grads = [dw,db]
         return grads, cost
  
     
     #logistic regression
-    def log_reg(self, w,b,X,Y,num_it,lr):
+    def log_reg(self, X, Y, num_it,lr):
         costs = []
         for i in range(num_it):
             temp_X = random.sample(range(X.shape[0]), X.shape[0]-50)
             temp_Y = Y[temp_X[:],:]
             temp_X = X[temp_X[:],:]
-            grads, cost = self.grad_cost_log_reg(w,b,temp_X,temp_Y,0)
-            print(np.max(grads[0]*lr))
-            w = w - grads[0]*lr
-            b = b - grads[1]*lr
+            grads, cost = self.grad_cost_log_reg(temp_X,temp_Y,0)
+            self.W = self.W - grads[0]*lr
+            self.b = self.b - grads[1]*lr
             costs.append(cost)
-        pram = [w,b]
-        return pram, grads, costs
+        return grads, costs
     
     
     #predict
-    def pred(self, w,b,X):
+    def pred(self, X):
         m = X.shape[0]
         Y_pred = np.zeros((1,m))
-        w = w.reshape(X.shape[1],1)
-        A =self.act.sigmoid(np.dot(X,w)+b)
+        w = self.W.reshape(X.shape[1],1)
+        A =self.act.sigmoid(np.dot(X,w)+self.b)
         Y_pred =np.round(A)
         return Y_pred
     
     #model
     def model_log_reg(self):
-        pram, grad, costs = self.log_reg(self.W, self.b, self.X.astype(float), self.Y.astype(float), self.num_it, self.lr)
-        w = pram[0]
-        b = pram[1]
-        Y_pred_dev = self.pred(w, b, self.XC.astype(float))
-        Y_pred_train = self.pred(w, b, self.X.astype(float))
+        grad, costs = self.log_reg(self.X.astype(float), self.Y.astype(float), self.num_it, self.lr)
+        Y_pred_dev = self.pred(self.XC.astype(float))
+        Y_pred_train = self.pred(self.X.astype(float))
         
         print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_train - self.Y)) * 100))
         print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_dev - self.YC)) * 100))
@@ -146,8 +136,8 @@ class titanic:
              "Y_prediction_train" : Y_pred_train,
              "prec_train" : 100 - np.mean(np.abs(Y_pred_train - self.Y)) * 100,
              "prec_dev": 100 - np.mean(np.abs(Y_pred_dev - self.YC)) * 100, 
-             "w" : w, 
-             "b" : b,
+             "w" : self.W, 
+             "b" : self.b,
              "learning_rate" : self.lr,
              "num_iterations": self.num_it}
          
