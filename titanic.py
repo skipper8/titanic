@@ -24,6 +24,7 @@ class titanic:
         self.num_it = num_it
         self.lr = lr
         self.W = W
+        print(W)
         self.b = b
         self.actvation = activation
         self.c = c
@@ -35,6 +36,7 @@ class titanic:
     def grad_cost_log_reg(self, X,Y,lambd):
         if(self.actvation == "sigmoid"):
             A=self.act.sigmoid(np.dot(X,self.W)+self.b)
+            print(A)
         elif(self.actvation == "tanh"):
             A = self.act.tanh(np.dot(X,self.W) + self.b)
         elif(self.actvation == "relu"):
