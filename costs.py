@@ -17,7 +17,7 @@ class costs():
         return abs(x-y)
 
     def cross_entropy(self, x, y, cases):
-        return np.sum(np.multiply(y, self.safe.ln(x)) + np.multiply(1-y, self.safe.ln(1-x)))/cases
+        return -1/cases*np.sum(np.multiply(y, self.safe.ln(x)) + np.multiply(1-y, self.safe.ln(1-x)))
 
     def cross_entropy_prime(self, x, y):
         return np.divide(y-x, np.multiply(1-x, x)+.01)

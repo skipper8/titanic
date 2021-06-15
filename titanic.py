@@ -75,7 +75,7 @@ class titanic:
         else:
             raise InvalidCost
         if(self.actvation == "sigmoid"):
-            dw=np.dot(np.multiply(self.act.sigmoid_prime(np.dot(X,self.W)+self.b), prime).T, X).T
+            dw=1/cases*np.dot(np.multiply(self.act.sigmoid_prime(np.dot(X,self.W)+self.b), prime).T, X).T
             db = 1/cases*np.sum(np.multiply(self.act.sigmoid_prime(np.dot(X,self.W)+self.b), prime))
         elif(self.actvation == "tanh"):
             dw=np.dot(np.multiply(self.act.tanh_prime(np.dot(X,self.W)+self.b), prime).T, X).T
