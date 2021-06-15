@@ -17,7 +17,7 @@ class InvalidCost(Exception):
 
 class titanic:
     def __init__(self, X, Y,CompX, CompY, num_it, lr, W, b, activation, c):
-        self.X = np.array(X, dtype=np.longdouble)
+        self.X = X
         self.Y = Y
         self.XC = CompX
         self.YC = CompY

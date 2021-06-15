@@ -155,7 +155,7 @@ LY_TEST = LY[1064:,:]
 
 #setup
 def inti(a):
-    w = np.random.rand(a,1)
+    w = np.zeros((a,1))
     b = 0
     return w,b
 
