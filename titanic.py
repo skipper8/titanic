@@ -111,8 +111,8 @@ class titanic:
             temp_X = X[temp_X[:],:]
             grads, cost = self.grad_cost_log_reg(temp_X,temp_Y,0)
             print(cost)
-            self.W = self.W - grads[0]*lr
-            self.b = self.b - grads[1]*lr
+            self.W = self.W - grads[0]*(cost+1)
+            self.b = self.b - grads[1]*(cost+1)
             costs.append(cost)
         return grads, costs
     
